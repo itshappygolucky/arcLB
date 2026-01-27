@@ -19,6 +19,19 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Arc Raiders Loadout Builder API' });
 });
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Arc Raiders Loadout Builder API',
+    version: '1.0.0',
+    endpoints: {
+      health: '/api/health',
+      items: '/api/items',
+      loadout: '/api/loadout'
+    }
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });

@@ -31,6 +31,8 @@ jobs:
         run: npm ci
       
       - name: Build web
+        env:
+          EXPO_PUBLIC_API_URL: https://arclb-production-6b33.up.railway.app/api
         run: npm run build:web
       
       - name: Setup Pages
