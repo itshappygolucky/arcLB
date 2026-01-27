@@ -1,0 +1,1430 @@
+{
+  "Adrenaline Shot": [
+    {
+      "material": "Chemicals",
+      "quantity": 3
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 3
+    }
+  ],
+  "Advanced Electrical Components": [
+    {
+      "material": "Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 3
+    }
+  ],
+  "Advanced Mechanical Components": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 2
+    }
+  ],
+  "Angled Grip I": [
+    {
+      "material": "Duct Tape",
+      "quantity": 1
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    }
+  ],
+  "Angled Grip II": [
+    {
+      "material": "Duct Tape",
+      "quantity": 3
+    },
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    }
+  ],
+  "Angled Grip III": [
+    {
+      "material": "Duct Tape",
+      "quantity": 5
+    },
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    }
+  ],
+  "Antiseptic": [
+    {
+      "material": "Chemicals",
+      "quantity": 10
+    },
+    {
+      "material": "Great Mullein",
+      "quantity": 2
+    }
+  ],
+  "Anvil I": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 5
+    },
+    {
+      "material": "Simple Gun Parts",
+      "quantity": 6
+    }
+  ],
+  "Aphelion": [
+    {
+      "material": "Magnetic Accelerator",
+      "quantity": 3
+    },
+    {
+      "material": "Complex Gun Parts",
+      "quantity": 3
+    },
+    {
+      "material": "Matriarch Reactor",
+      "quantity": 1
+    }
+  ],
+  "Anvil": [
+    { "material": "Mechanical Components", "quantity": 5 },
+    { "material": "Simple Gun Parts", "quantity": 6 }
+  ],
+  "Arpeggio": [
+    { "material": "Mechanical Components", "quantity": 6 },
+    { "material": "Simple Gun Parts", "quantity": 6 }
+  ],
+  "Bettina": [
+    { "material": "Advanced Mechanical Components", "quantity": 3 },
+    { "material": "Heavy Gun Parts", "quantity": 3 },
+    { "material": "Canister", "quantity": 3 }
+  ],
+  "Bobcat": [
+    { "material": "Magnetic Accelerator", "quantity": 1 },
+    { "material": "Light Gun Parts", "quantity": 3 },
+    { "material": "Exodus Modules", "quantity": 2 }
+  ],
+  "Burletta": [
+    { "material": "Mechanical Components", "quantity": 3 },
+    { "material": "Simple Gun Parts", "quantity": 3 }
+  ],
+  "ARC Circuitry": [
+    {
+      "material": "ARC Alloy",
+      "quantity": 8
+    }
+  ],
+  "ARC Motion Core": [
+    {
+      "material": "ARC Alloy",
+      "quantity": 8
+    }
+  ],
+  "Arpeggio I": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 6
+    },
+    {
+      "material": "Simple Gun Parts",
+      "quantity": 6
+    }
+  ],
+  "Bandage": [
+    {
+      "material": "Fabric",
+      "quantity": 5
+    }
+  ],
+  "Barricade Kit": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 1
+    }
+  ],
+  "Bettina I": [
+    {
+      "material": "Advanced Mechanical Components",
+      "quantity": 3
+    },
+    {
+      "material": "Canister",
+      "quantity": 3
+    },
+    {
+      "material": "Heavy Gun Parts",
+      "quantity": 3
+    }
+  ],
+  "Binoculars": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 8
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 4
+    }
+  ],
+  "Blaze Grenade": [
+    {
+      "material": "Explosive Compound",
+      "quantity": 1
+    },
+    {
+      "material": "Oil",
+      "quantity": 2
+    }
+  ],
+  "Blaze Grenade Trap": [
+    {
+      "material": "Blaze Grenade",
+      "quantity": 1
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Blue Light Stick": [
+    {
+      "material": "Chemicals",
+      "quantity": 3
+    }
+  ],
+  "Bobcat I": [
+    {
+      "material": "Exodus Modules",
+      "quantity": 2
+    },
+    {
+      "material": "Light Gun Parts",
+      "quantity": 3
+    },
+    {
+      "material": "Magnetic Accelerator",
+      "quantity": 1
+    }
+  ],
+  "Burletta I": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 3
+    },
+    {
+      "material": "Simple Gun Parts",
+      "quantity": 3
+    }
+  ],
+  "Combat Mk. 1": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 6
+    }
+  ],
+  "Combat Mk. 2": [
+    {
+      "material": "Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Magnet",
+      "quantity": 3
+    }
+  ],
+  "Combat Mk. 3 (Aggressive)": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 3
+    }
+  ],
+  "Combat Mk. 3 (Flanking)": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 3
+    }
+  ],
+  "Compensator I": [
+    {
+      "material": "Metal Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Compensator II": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 4
+    }
+  ],
+  "Compensator III": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 8
+    }
+  ],
+  "Complex Gun Parts": [
+    {
+      "material": "Heavy Gun Parts",
+      "quantity": 2
+    },
+    {
+      "material": "Light Gun Parts",
+      "quantity": 2
+    },
+    {
+      "material": "Medium Gun Parts",
+      "quantity": 2
+    }
+  ],
+  "Crude Explosives": [
+    {
+      "material": "Chemicals",
+      "quantity": 6
+    }
+  ],
+  "Deadline": [
+    {
+      "material": "ARC Circuitry",
+      "quantity": 2
+    },
+    {
+      "material": "Explosive Compound",
+      "quantity": 3
+    }
+  ],
+  "Defibrillator": [
+    {
+      "material": "Moss",
+      "quantity": 1
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 9
+    }
+  ],
+  "Door Blocker": [
+    {
+      "material": "Metal Parts",
+      "quantity": 3
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 3
+    }
+  ],
+  "Durable Cloth": [
+    {
+      "material": "Fabric",
+      "quantity": 14
+    }
+  ],
+  "Electrical Components": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 8
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 4
+    }
+  ],
+  "Energy Clip": {
+    "output": 5,
+    "ingredients": [
+      {
+        "material": "Advanced ARC Powercell",
+        "quantity": 1
+      },
+      {
+        "material": "Battery",
+        "quantity": 2
+      }
+    ]
+  },
+  "Equalizer": [
+    { "material": "Magnetic Accelerator", "quantity": 3 },
+    { "material": "Complex Gun Parts", "quantity": 3 },
+    { "material": "Queen Reactor", "quantity": 1 }
+  ],
+  "Ferro": [
+    { "material": "Metal Parts", "quantity": 5 },
+    { "material": "Rubber Parts", "quantity": 2 }
+  ],
+  "Explosive Compound": [
+    {
+      "material": "Crude Explosives",
+      "quantity": 2
+    },
+    {
+      "material": "Oil",
+      "quantity": 2
+    }
+  ],
+  "Explosive Mine": [
+    {
+      "material": "Explosive Compound",
+      "quantity": 1
+    },
+    {
+      "material": "Sensors",
+      "quantity": 1
+    }
+  ],
+  "Extended Barrel": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 8
+    }
+  ],
+  "Extended Light Mag I": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 1
+    }
+  ],
+  "Extended Light Mag II": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 3
+    }
+  ],
+  "Extended Light Mag III": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 5
+    }
+  ],
+  "Extended Medium Mag I": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 1
+    }
+  ],
+  "Extended Medium Mag II": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 3
+    }
+  ],
+  "Extended Medium Mag III": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 5
+    }
+  ],
+  " Extended Shotgun Mag I": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 1
+    }
+  ],
+  "Extended Shotgun Mag II": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 3
+    }
+  ],
+  "Ferro I": [
+    {
+      "material": "Metal Parts",
+      "quantity": 5
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 2
+    }
+  ],
+  "Firecracker": [
+    {
+      "material": "Chemicals",
+      "quantity": 2
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 4
+    }
+  ],
+  "Fireworks Box": [
+    {
+      "material": "Explosive Compound",
+      "quantity": 1
+    },
+    {
+      "material": "Pop Trigger",
+      "quantity": 3
+    }
+  ],
+  "Flame Spray": [
+    {
+      "material": "Air Freshener",
+      "quantity": 1
+    },
+    {
+      "material": "Fireball Burner",
+      "quantity": 1
+    }
+  ],
+  "Fruit Mix": [
+    {
+      "material": "Apricot",
+      "quantity": 1
+    },
+    {
+      "material": "Lemon",
+      "quantity": 1
+    },
+    {
+      "material": "Prickly Pear",
+      "quantity": 1
+    }
+  ],
+  "Gas Grenade": [
+    {
+      "material": "Chemicals",
+      "quantity": 4
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 2
+    }
+  ],
+  "Gas Grenade Trap": [
+    {
+      "material": "Gas Grenade",
+      "quantity": 1
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Gas Mine": [
+    {
+      "material": "Chemicals",
+      "quantity": 4
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 2
+    }
+  ],
+  "Green Light Stick": [
+    {
+      "material": "Chemicals",
+      "quantity": 3
+    }
+  ],
+  "Hairpin": [
+    { "material": "Metal Parts", "quantity": 2 },
+    { "material": "Plastic Parts", "quantity": 5 }
+  ],
+  "Hairpin I": [
+    { "material": "Metal Parts", "quantity": 2 },
+    { "material": "Plastic Parts", "quantity": 5 }
+  ],
+  "Heavy Ammo": {
+    "output": 10,
+    "ingredients": [
+      {
+        "material": "Metal Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 2
+      }
+    ]
+  },
+  "Heavy Fuze Grenade": [
+    {
+      "material": "Canister",
+      "quantity": 2
+    },
+    {
+      "material": "Explosive Compound",
+      "quantity": 1
+    }
+  ],
+  "Heavy Gun Parts": [
+    {
+      "material": "Simple Gun Parts",
+      "quantity": 4
+    }
+  ],
+  "Heavy Shield": [
+    {
+      "material": "Power Rod",
+      "quantity": 1
+    },
+    {
+      "material": "Voltage Converter",
+      "quantity": 2
+    }
+  ],
+  "Herbal Bandage": [
+    {
+      "material": "Durable Cloth",
+      "quantity": 1
+    },
+    {
+      "material": "Great Mullein",
+      "quantity": 1
+    }
+  ],
+  "Horizontal Grip": [
+    {
+      "material": "Duct Tape",
+      "quantity": 5
+    },
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    }
+  ],
+  "Hullcracker": [
+    { "material": "Magnetic Accelerator", "quantity": 1 },
+    { "material": "Heavy Gun Parts", "quantity": 3 },
+    { "material": "Exodus Modules", "quantity": 1 }
+  ],
+  "Hullcracker I": [
+    { "material": "Exodus Modules", "quantity": 1 },
+    { "material": "Heavy Gun Parts", "quantity": 3 },
+    { "material": "Magnetic Accelerator", "quantity": 1 }
+  ],
+  "Il Toro": [
+    { "material": "Mechanical Components", "quantity": 5 },
+    { "material": "Simple Gun Parts", "quantity": 6 }
+  ],
+  "Il Toro I": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 5
+    },
+    {
+      "material": "Simple Gun Parts",
+      "quantity": 6
+    }
+  ],
+  "Jolt Mine": [
+    {
+      "material": "Battery",
+      "quantity": 1
+    },
+    {
+      "material": "Electrical Components",
+      "quantity": 1
+    }
+  ],
+  "Jupiter": [
+    { "material": "Magnetic Accelerator", "quantity": 3 },
+    { "material": "Complex Gun Parts", "quantity": 3 },
+    { "material": "Queen Reactor", "quantity": 1 }
+  ],
+  "Kettle": [
+    { "material": "Metal Parts", "quantity": 6 },
+    { "material": "Rubber Parts", "quantity": 8 }
+  ],
+  "Kettle I": [
+    {
+      "material": "Metal Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 8
+    }
+  ],
+  "Launcher Ammo": {
+    "output": 6,
+    "ingredients": [
+      {
+        "material": "ARC Motion Core",
+        "quantity": 1
+      },
+      {
+        "material": "Crude Explosives",
+        "quantity": 2
+      }
+    ]
+  },
+  "Lightweight Stock": [
+    {
+      "material": "Duct Tape",
+      "quantity": 5
+    },
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    }
+  ],
+  "Light Ammo": {
+    "output": 25,
+    "ingredients": [
+      {
+        "material": "Metal Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 2
+      }
+    ]
+  },
+  "Light Gun Parts": [
+    {
+      "material": "Simple Gun Parts",
+      "quantity": 4
+    }
+  ],
+  "Light Impact Grenade": [
+    {
+      "material": "Chemicals",
+      "quantity": 3
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 2
+    }
+  ],
+  "Light Shield": [
+    {
+      "material": "ARC Alloy",
+      "quantity": 2
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 4
+    }
+  ],
+  "Li'l Smoke Grenade": [
+    {
+      "material": "Chemicals",
+      "quantity": 5
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 1
+    }
+  ],
+  "Looting Mk. 1": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 6
+    }
+  ],
+  "Looting Mk. 2": [
+    {
+      "material": "Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Magnet",
+      "quantity": 3
+    }
+  ],
+  "Looting Mk. 3 (Cautious)": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 3
+    }
+  ],
+  "Looting Mk. 3 (Survivor)": [
+    {
+      "material": "Advanced Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 2
+    }
+  ],
+  "Lure Grenade": [
+    {
+      "material": "Electrical Components",
+      "quantity": 1
+    },
+    {
+      "material": "Speaker Component",
+      "quantity": 1
+    }
+  ],
+  "Lure Grenade Trap": [
+    {
+      "material": "Lure Grenade",
+      "quantity": 1
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Magnetic Accelerator": [
+    {
+      "material": "Advanced Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "ARC Motion Core",
+      "quantity": 2
+    }
+  ],
+  "Mechanical Components": [
+    {
+      "material": "Metal Parts",
+      "quantity": 7
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 3
+    }
+  ],
+  "Medium Ammo": {
+    "output": 20,
+    "ingredients": [
+      {
+        "material": "Metal Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 2
+      }
+    ]
+  },
+  "Medium Gun Parts": [
+    {
+      "material": "Simple Gun Parts",
+      "quantity": 4
+    }
+  ],
+  "Medium Shield": [
+    {
+      "material": "ARC Circuitry",
+      "quantity": 1
+    },
+    {
+      "material": "Battery",
+      "quantity": 4
+    }
+  ],
+  "Mod Components": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 2
+    }
+  ],
+  "Muzzle Brake I": [
+    {
+      "material": "Metal Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Muzzle Brake II": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 4
+    }
+  ],
+  "Muzzle Brake III": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 8
+    }
+  ],
+  "Noisemaker": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 2
+    },
+    {
+      "material": "Speaker Component",
+      "quantity": 1
+    }
+  ],
+  "Osprey": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Wires", "quantity": 7 }
+  ],
+  "Osprey I": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Wires", "quantity": 7 }
+  ],
+  "Padded Stock": [
+    {
+      "material": "Duct Tape",
+      "quantity": 5
+    },
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    }
+  ],
+  "Photoelectric Cloak": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Speaker Component",
+      "quantity": 4
+    }
+  ],
+  "Power Rod": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "ARC Circuitry",
+      "quantity": 2
+    }
+  ],
+  "Pulse Mine": [
+    {
+      "material": "Crude Explosives",
+      "quantity": 1
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Raider Hatch Key": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 1
+    },
+    {
+      "material": "Sensors",
+      "quantity": 3
+    }
+  ],
+  "Rattler": [
+    { "material": "Metal Parts", "quantity": 16 },
+    { "material": "Rubber Parts", "quantity": 12 }
+  ],
+  "Rattler I": [
+    { "material": "Metal Parts", "quantity": 16 },
+    { "material": "Rubber Parts", "quantity": 12 }
+  ],
+  "Red Light Stick": [
+    {
+      "material": "Chemicals",
+      "quantity": 3
+    }
+  ],
+  "Remote Raider Flare": [
+    {
+      "material": "Chemicals",
+      "quantity": 2
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 4
+    }
+  ],
+  "Renegade": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Oil", "quantity": 5 }
+  ],
+  "Renegade I": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Oil", "quantity": 5 }
+  ],
+  "Seeker Grenade": [
+    {
+      "material": "ARC Alloy",
+      "quantity": 2
+    },
+    {
+      "material": "Crude Explosives",
+      "quantity": 1
+    }
+  ],
+  "Shield Recharger": [
+    {
+      "material": "ARC Powercell",
+      "quantity": 1
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 5
+    }
+  ],
+  "Shotgun Ammo": {
+    "output": 5,
+    "ingredients": [
+      {
+        "material": "Metal Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 2
+      }
+    ]
+  },
+  "Shotgun Choke I": [
+    {
+      "material": "Metal Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Shotgun Choke II": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 4
+    }
+  ],
+  "Shotgun Choke III": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 8
+    }
+  ],
+  "Shotgun Silencer": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 8
+    }
+  ],
+  "Showstopper": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 1
+    },
+    {
+      "material": "Voltage Converter",
+      "quantity": 1
+    }
+  ],
+  "Shrapnel Grenade": [
+    {
+      "material": "Crude Explosives",
+      "quantity": 1
+    },
+    {
+      "material": "Steel Spring",
+      "quantity": 2
+    }
+  ],
+  "Silencer I": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 4
+    }
+  ],
+  "Silencer II": [
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    },
+    {
+      "material": "Wires",
+      "quantity": 8
+    }
+  ],
+  "Smoke Grenade": [
+    {
+      "material": "Canister",
+      "quantity": 1
+    },
+    {
+      "material": "Chemicals",
+      "quantity": 14
+    }
+  ],
+  "Smoke Grenade Trap": [
+    {
+      "material": "Smoke Grenade",
+      "quantity": 1
+    },
+    {
+      "material": "Wires",
+      "quantity": 1
+    }
+  ],
+  "Snap Blast Grenade": [
+    {
+      "material": "Crude Explosives",
+      "quantity": 2
+    },
+    {
+      "material": "Magnet",
+      "quantity": 1
+    }
+  ],
+  "Snap Hook": [
+    {
+      "material": "Exodus Modules",
+      "quantity": 1
+    },
+    {
+      "material": "Power Rod",
+      "quantity": 2
+    },
+    {
+      "material": "Rope",
+      "quantity": 3
+    }
+  ],
+  "Stable Stock I": [
+    {
+      "material": "Duct Tape",
+      "quantity": 1
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 6
+    }
+  ],
+  "Stable Stock II": [
+    {
+      "material": "Duct Tape",
+      "quantity": 3
+    },
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    }
+  ],
+  "Stable Stock III": [
+    {
+      "material": "Duct Tape",
+      "quantity": 5
+    },
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    }
+  ],
+  "Sterilized Bandage": [
+    {
+      "material": "Antiseptic",
+      "quantity": 1
+    },
+    {
+      "material": "Durable Cloth",
+      "quantity": 2
+    }
+  ],
+  "Stitcher": [
+    { "material": "Metal Parts", "quantity": 8 },
+    { "material": "Rubber Parts", "quantity": 4 }
+  ],
+  "Stitcher I": [
+    { "material": "Metal Parts", "quantity": 8 },
+    { "material": "Rubber Parts", "quantity": 4 }
+  ],
+  "Surge Shield Recharger": [
+    {
+      "material": "Advanced ARC Powercell",
+      "quantity": 1
+    },
+    {
+      "material": "Electrical Components",
+      "quantity": 1
+    }
+  ],
+  "Tactical Mk. 1": [
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    },
+    {
+      "material": "Rubber Parts",
+      "quantity": 6
+    }
+  ],
+  "Tactical Mk. 2": [
+    {
+      "material": "Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Magnet",
+      "quantity": 3
+    }
+  ],
+  "Tactical Mk. 3 (Defensive)": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 3
+    }
+  ],
+  "Tactical Mk. 3 (Healing)": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 3
+    }
+  ],
+  "Tagging Grenade": [
+    {
+      "material": "Electrical Components",
+      "quantity": 1
+    },
+    {
+      "material": "Sensors",
+      "quantity": 1
+    }
+  ],
+  "Tempest": [
+    { "material": "Magnetic Accelerator", "quantity": 1 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Exodus Modules", "quantity": 2 }
+  ],
+  "Tempest I": [
+    { "material": "Exodus Modules", "quantity": 2 },
+    { "material": "Magnetic Accelerator", "quantity": 1 },
+    { "material": "Medium Gun Parts", "quantity": 3 }
+  ],
+  "Torrente": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Steel Spring", "quantity": 6 }
+  ],
+  "Torrente I": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Steel Spring", "quantity": 6 }
+  ],
+  "Trailblazer": [
+    {
+      "material": "Explosive Compound",
+      "quantity": 1
+    },
+    {
+      "material": "Synthesized Fuel",
+      "quantity": 1
+    }
+  ],
+  "Trigger 'Nade": [
+    {
+      "material": "Crude Explosives",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 1
+    }
+  ],
+  "Venator": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Wires", "quantity": 7 }
+  ],
+  "Venator I": [
+    { "material": "Advanced Mechanical Components", "quantity": 2 },
+    { "material": "Medium Gun Parts", "quantity": 3 },
+    { "material": "Wires", "quantity": 7 }
+  ],
+  "Vertical Grip I": [
+    {
+      "material": "Duct Tape",
+      "quantity": 1
+    },
+    {
+      "material": "Plastic Parts",
+      "quantity": 6
+    }
+  ],
+  "Vertical Grip II": [
+    {
+      "material": "Duct Tape",
+      "quantity": 3
+    },
+    {
+      "material": "Mechanical Components",
+      "quantity": 2
+    }
+  ],
+  "Vertical Grip III": [
+    {
+      "material": "Duct Tape",
+      "quantity": 5
+    },
+    {
+      "material": "Mod Components",
+      "quantity": 2
+    }
+  ],
+  "Vita Shot": [
+    {
+      "material": "Antiseptic",
+      "quantity": 2
+    },
+    {
+      "material": "Syringe",
+      "quantity": 1
+    }
+  ],
+  "Vita Spray": [
+    {
+      "material": "Antiseptic",
+      "quantity": 3
+    },
+    {
+      "material": "Canister",
+      "quantity": 1
+    }
+  ],
+  "Vulcano": [
+    { "material": "Magnetic Accelerator", "quantity": 1 },
+    { "material": "Heavy Gun Parts", "quantity": 3 },
+    { "material": "Exodus Modules", "quantity": 1 }
+  ],
+  "Vulcano I": [
+    { "material": "Exodus Modules", "quantity": 1 },
+    { "material": "Heavy Gun Parts", "quantity": 3 },
+    { "material": "Magnetic Accelerator", "quantity": 1 }
+  ],
+  "Wolfpack": [
+    {
+      "material": "ARC Motion Core",
+      "quantity": 2
+    },
+    {
+      "material": "Explosive Compound",
+      "quantity": 3
+    }
+  ],
+  "Yellow Light Stick": [
+    {
+      "material": "Chemicals",
+      "quantity": 3
+    }
+  ],
+  "Zipline": [
+    {
+      "material": "Mechanical Components",
+      "quantity": 1
+    },
+    {
+      "material": "Rope",
+      "quantity": 1
+    }
+  ]
+}

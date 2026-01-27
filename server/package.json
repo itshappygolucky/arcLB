@@ -1,0 +1,26 @@
+{
+  "name": "arclb-server",
+  "version": "1.0.0",
+  "description": "Arc Raiders Loadout Builder API Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "scrape": "node scripts/scrape-wikis.js",
+    "seed": "node scripts/seed-data.js",
+    "add-recipes": "node scripts/add-more-recipes.js",
+    "add-all-recipes": "node scripts/add-all-recipes.js",
+    "fix-empty-recipes": "node scripts/fix-empty-recipes.js",
+    "populate": "node scripts/populate-database.js",
+    "verify": "node scripts/verify-database.js",
+    "verify-recipes": "node scripts/verify-recipes.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7"
+  },
+  "private": true
+}

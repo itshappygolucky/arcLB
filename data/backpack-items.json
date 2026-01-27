@@ -1,0 +1,5271 @@
+[
+  {
+    "Item": "Acoustic Guitar",
+    "Rarity": "Legendary",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 4
+      },
+      {
+        "material": "Wires",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 7000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Adrenaline Shot",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Advanced ARC Powercell",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Powercell",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Advanced Electrical Components",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1750,
+    "Stack Size": 5,
+    "Category": "Refined Material",
+    "Quests": null,
+    "Workshop": "Gear Bench 3 (5×)\nUtility Station 3 (5×)"
+  },
+  {
+    "Item": "Advanced Mechanical Components",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1750,
+    "Stack Size": 5,
+    "Category": "Refined Material",
+    "Quests": null,
+    "Workshop": "Gunsmith 3 (5×)"
+  },
+  {
+    "Item": "Agave",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Agave Juice",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1800,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Air Freshener",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 5,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Alarm Clock",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Processor",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ancient Fort Security Code",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Angled Grip I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Angled Grip II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Duct Tape",
+        "quantity": 1
+      },
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Angled Grip III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Duct Tape",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Antiseptic",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 10
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Refined Material",
+    "Quests": "Doctor's Orders (2×)",
+    "Workshop": "Medical Lab 3 (8×)"
+  },
+  {
+    "Item": "Anvil Splitter",
+    "Rarity": "Legendary",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 7000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Apricot",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": "Scrappy 3 (3×)\nScrappy 5 (12×)"
+  },
+  {
+    "Item": "ARC Alloy",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 200,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": "Clearer Skies (3×)",
+    "Workshop": "Explosives Station 1 (6×)\nMedical Lab 1 (6×)\nUtility Station 1 (6×)"
+  },
+  {
+    "Item": "ARC Circuitry",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": "Refiner 3 (10×)"
+  },
+  {
+    "Item": "ARC Coolant",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 16
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "ARC Flex Rubber",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 16
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "ARC Motion Core",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": "Refiner 2 (5×)"
+  },
+  {
+    "Item": "ARC Performance Steel",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 12
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "ARC Powercell",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 270,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": "Refiner 1 (5×)"
+  },
+  {
+    "Item": "ARC Synthetic Resin",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 14
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "ARC Thermo Lining",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 16
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Assorted Seeds",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 100,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Bandage",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 250,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Barricade Kit",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Bastion Cell",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Mechanical Components",
+        "quantity": 2
+      },
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Gear Bench 3 (6×)"
+  },
+  {
+    "Item": "Battery",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 250,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": "After Rain Comes (2×)\nTrash Into Treasure (1×)",
+    "Workshop": null
+  },
+  {
+    "Item": "Bicycle Pump",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 10
+      },
+      {
+        "material": "Canister",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Binoculars",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 2
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Blaze Grenade",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Oil",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 1600,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Blaze Grenade Trap",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Bloated Tuna Can",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 15,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Blue Gate Cellar Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Blue Gate Communication Tower Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Blue Gate Confiscation Room Key",
+    "Rarity": "Epic",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Blue Gate Village Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Bombardier Cell",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Mechanical Components",
+        "quantity": 2
+      },
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Refiner 3 (6×)"
+  },
+  {
+    "Item": "Breathtaking Snow Globe",
+    "Rarity": "Epic",
+    "Recycles To": null,
+    "Sell Price": 7000,
+    "Stack Size": 1,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Broken Flashlight",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Battery",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Broken Guidance System",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Processor",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Broken Handheld Radio",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Wires",
+        "quantity": 2
+      },
+      {
+        "material": "Sensors",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Broken Taser",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Battery",
+        "quantity": 2
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Buried City Hospital Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Buried City JKV Employee Access Card",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Buried City Residential Master Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Buried City Town Hall Key",
+    "Rarity": "Epic",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Burned ARC Circuitry",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 5,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Burnt-Out Candles",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 640,
+    "Stack Size": 15,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Camera Lens",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 5,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Candle Holder",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Candleberries",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 460,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Canister",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Cat Bed",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": "Scrappy 4 (1×)"
+  },
+  {
+    "Item": "Chemicals",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 50,
+    "Stack Size": 50,
+    "Category": "Basic Material",
+    "Quests": null,
+    "Workshop": "Explosives Station 1 (50×)"
+  },
+  {
+    "Item": "Coffee Pot",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Combat Mk. 1",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Combat Mk. 2",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Magnet",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Combat Mk. 3 (Aggressive)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Combat Mk. 3 (Flanking)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Compensator I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Compensator II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Compensator III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Complex Gun Parts",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Simple Gun Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Coolant",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Oil",
+        "quantity": 2
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Cooling Coil",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Steel Spring",
+        "quantity": 2
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Cooling Fan",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 14
+      },
+      {
+        "material": "Wires",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Cracked Bioscanner",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Battery",
+        "quantity": 3
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Medical Lab 2 (2×)"
+  },
+  {
+    "Item": "Crude Explosives",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 10,
+    "Category": "Refined Material",
+    "Quests": null,
+    "Workshop": "Explosives Station 2 (5×)"
+  },
+  {
+    "Item": "Crumpled Plastic Bottle",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dam Control Tower Key",
+    "Rarity": "Epic",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dam Staff Room Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dam Surveillance Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dam Testing Annex Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dam Utility Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged ARC Motion Core",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 5,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged ARC Powercell",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 293,
+    "Stack Size": 5,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged Fireball Burner",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged Heat Sink",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Wires",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Utility Station 2 (2×)"
+  },
+  {
+    "Item": "Damaged Hornet Driver",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged Leaper Pulse Unit",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged Rocketeer Driver",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged Snitch Scanner",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 659,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged Tick Pod",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Damaged Wasp Driver",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dart Board",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Deadline",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "ARC Circuitry",
+        "quantity": 1
+      },
+      {
+        "material": "Explosive Compound",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Defibrillator",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Moss",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Deflated Football",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 9
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 9
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Degraded ARC Rubber",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 11
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Diving Goggles",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 12
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dog Collar",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 1
+      },
+      {
+        "material": "Fabric",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Scrappy 2 (1×)"
+  },
+  {
+    "Item": "Door Blocker",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Dried-Out ARC Resin",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 9
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Duct Tape",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Durable Cloth",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Refined Material",
+    "Quests": "Doctor's Orders (1×)",
+    "Workshop": "Medical Lab 2 (5×)"
+  },
+  {
+    "Item": "Electrical Components",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Refined Material",
+    "Quests": null,
+    "Workshop": "Gear Bench 2 (5×)\nUtility Station 2 (5×)"
+  },
+  {
+    "Item": "Empty Wine Bottle",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Energy Clip",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Ammunition",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "ESR Analyzer",
+    "Rarity": null,
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": 1,
+    "Category": "Trinket",
+    "Quests": "A Reveal In Ruins (1×)",
+    "Workshop": null
+  },
+  {
+    "Item": "Exodus Modules",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Magnet",
+        "quantity": 2
+      },
+      {
+        "material": "Processor",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2750,
+    "Stack Size": 3,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Expired Pasta",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 15,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Expired Respirator",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 4
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Explosive Compound",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Crude Explosives",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Refined Material",
+    "Quests": null,
+    "Workshop": "Explosives Station 3 (5×)"
+  },
+  {
+    "Item": "Explosive Mine",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Sensors",
+        "quantity": 1
+      },
+      {
+        "material": "Oil",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1500,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Barrel",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Light Mag I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Light Mag II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Light Mag III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Medium Mag I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Medium Mag II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Medium Mag III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Shotgun Mag I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Shotgun Mag II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Extended Shotgun Mag III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Fabric",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 50,
+    "Stack Size": 50,
+    "Category": "Basic Material",
+    "Quests": null,
+    "Workshop": "Gear Bench 1 (30×)\nMedical Lab 1 (50×)"
+  },
+  {
+    "Item": "Faded Photograph",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 640,
+    "Stack Size": 15,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Fertilizer",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Film Reel",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Fine Wristwatch",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Fireball Burner",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Refiner 2 (8×)"
+  },
+  {
+    "Item": "Firecracker",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Fireworks Box",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Explosive Compound",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Flame Spray",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Canister",
+        "quantity": 1
+      },
+      {
+        "material": "Fireball Burner",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Flow Controller",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Advanced Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Sensors",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "Snap And Salvage (1×)",
+    "Workshop": null
+  },
+  {
+    "Item": "Fossilized Lightning",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Explosive Compound",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 4000,
+    "Stack Size": 1,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Free Loadout Augment",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Frequency Modulation Box",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Speaker Component",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Fried Motherboard",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 2
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Utility Station 3 (3×)"
+  },
+  {
+    "Item": "Fruit Mix",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 1800,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Frying Pan",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Garlic Press",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 12
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Gas Grenade",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Gas Grenade Trap",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 300,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Gas Mine",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Geiger Counter",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Exodus Modules",
+        "quantity": 1
+      },
+      {
+        "material": "Battery",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 3500,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Great Mullein",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": "Doctor's Orders (1×)",
+    "Workshop": null
+  },
+  {
+    "Item": "Headphones",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Speaker Component",
+        "quantity": 1
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 7
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Heavy Ammo",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 12,
+    "Stack Size": 40,
+    "Category": "Ammunition",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Heavy Fuze Grenade",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Oil",
+        "quantity": 1
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1600,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Heavy Gun Parts",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Simple Gun Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 700,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Heavy Shield",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Voltage Converter",
+        "quantity": 1
+      },
+      {
+        "material": "ARC Circuitry",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5500,
+    "Stack Size": 1,
+    "Category": "Shield",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Herbal Bandage",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 2
+      },
+      {
+        "material": "Fabric",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 900,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Horizontal Grip",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Duct Tape",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 7000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Hornet Driver",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      },
+      {
+        "material": "Electrical Components",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "The Trifecta (2×)",
+    "Workshop": "Gear Bench 2 (5×)"
+  },
+  {
+    "Item": "Household Cleaner",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 11
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Humidifier",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Canister",
+        "quantity": 2
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ice Cream Scooper",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 7
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Impure ARC Coolant",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 12
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Industrial Battery",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Battery",
+        "quantity": 2
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 7
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Gear Bench 3 (3×)"
+  },
+  {
+    "Item": "Industrial Charger",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Voltage Converter",
+        "quantity": 1
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Industrial Magnet",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Magnet",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Integrated Binoculars",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": null,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Integrated Shield Recharger",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ion Sputter",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Exodus Modules",
+        "quantity": 1
+      },
+      {
+        "material": "Voltage Converter",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 6000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Jolt Mine",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Battery",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 850,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Kinetic Converter",
+    "Rarity": "Legendary",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Duct Tape",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 7000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Laboratory Reagents",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 16
+      },
+      {
+        "material": "Crude Explosives",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Explosives Station 3 (3×)"
+  },
+  {
+    "Item": "Lance's Mixtape (5th Edition)",
+    "Rarity": "Epic",
+    "Recycles To": null,
+    "Sell Price": 10000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Launcher Ammo",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 250,
+    "Stack Size": 24,
+    "Category": "Ammunition",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Leaper Pulse Unit",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Mechanical Components",
+        "quantity": 2
+      },
+      {
+        "material": "ARC Alloy",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "Into The Fray (1×)",
+    "Workshop": "Utility Station 3 (4×)"
+  },
+  {
+    "Item": "Lemon",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": "Scrappy 3 (3×)"
+  },
+  {
+    "Item": "Li'l Smoke Grenade",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Lidar Scanner",
+    "Rarity": null,
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": 1,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Light Ammo",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 4,
+    "Stack Size": 100,
+    "Category": "Ammunition",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Light Bulb",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Light Gun Parts",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Simple Gun Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 700,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Light Impact Grenade",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Light Shield",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Shield",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Light Stick",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 150,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Lightweight Stock",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Duct Tape",
+        "quantity": 1
+      },
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Looting Mk. 1",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Looting Mk. 2",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Magnet",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Looting Mk. 3 (Cautious)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Looting Mk. 3 (Survivor)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Lure Grenade",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Speaker Component",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Lure Grenade Trap",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Magnet",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Magnetic Accelerator",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "ARC Motion Core",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5500,
+    "Stack Size": 3,
+    "Category": "Refined Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Magnetron",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Magnetic Accelerator",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 6000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "Snap And Salvage (1×)",
+    "Workshop": null
+  },
+  {
+    "Item": "Matriarch Reactor",
+    "Rarity": "Legendary",
+    "Recycles To": [
+      {
+        "material": "Magnetic Accelerator",
+        "quantity": 1
+      },
+      {
+        "material": "Power Rod",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 13000,
+    "Stack Size": 1,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Mechanical Components",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Refined Material",
+    "Quests": null,
+    "Workshop": "Gunsmith 2 (5×)"
+  },
+  {
+    "Item": "Medium Ammo",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 6,
+    "Stack Size": 80,
+    "Category": "Ammunition",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Medium Gun Parts",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Simple Gun Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 700,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Medium Shield",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Circuitry",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Shield",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Metal Brackets",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Metal Parts",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 75,
+    "Stack Size": 50,
+    "Category": "Basic Material",
+    "Quests": null,
+    "Workshop": "Gunsmith 1 (20×)\nRefiner 1 (60×)"
+  },
+  {
+    "Item": "Microscope",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Advanced Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Magnet",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Mini Centrifuge",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Advanced Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Canister",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Mod Components",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1750,
+    "Stack Size": 5,
+    "Category": "Advanced Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Moss",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 500,
+    "Stack Size": 10,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Motor",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 2
+      },
+      {
+        "material": "Oil",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Refiner 3 (3×)"
+  },
+  {
+    "Item": "Mushroom",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": "Scrappy 5 (12×)"
+  },
+  {
+    "Item": "Music Album",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Music Box",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Muzzle Brake I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Muzzle Brake II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Muzzle Brake III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Noisemaker",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Speaker Component",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Number Plate",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Oil",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Olives",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": "Scrappy 4 (6×)"
+  },
+  {
+    "Item": "Padded Stock",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Duct Tape",
+        "quantity": 1
+      },
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Painted Box",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Patrol Car Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Photoelectric Cloak",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Speaker Component",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Pilgrim's Peak Security Code",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Plastic Parts",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 60,
+    "Stack Size": 50,
+    "Category": "Basic Material",
+    "Quests": null,
+    "Workshop": "Gear Bench 1 (25×)\nUtility Station 1 (50×)"
+  },
+  {
+    "Item": "Playing Cards",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Polluted Air Filter",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Oil",
+        "quantity": 2
+      },
+      {
+        "material": "Fabric",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Pop Trigger",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      },
+      {
+        "material": "Crude Explosives",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Explosives Station 2 (5×)"
+  },
+  {
+    "Item": "Portable TV",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Battery",
+        "quantity": 2
+      },
+      {
+        "material": "Wires",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Poster Of Natural Wonders",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Pottery",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Power Bank",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Battery",
+        "quantity": 2
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Power Cable",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Wires",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Gear Bench 2 (3×)"
+  },
+  {
+    "Item": "Power Rod",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "ARC Circuitry",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Advanced Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Prickly Pear",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": "Scrappy 4 (6×)"
+  },
+  {
+    "Item": "Processor",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 500,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Projector",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Processor",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Pulse Mine",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 470,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Queen Reactor",
+    "Rarity": "Legendary",
+    "Recycles To": [
+      {
+        "material": "Magnetic Accelerator",
+        "quantity": 1
+      },
+      {
+        "material": "Power Rod",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 13000,
+    "Stack Size": 1,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Radio",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Sensors",
+        "quantity": 1
+      },
+      {
+        "material": "Speaker Component",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Radio Relay",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Sensors",
+        "quantity": 2
+      },
+      {
+        "material": "Speaker Component",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Raider Hatch Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Raider's Refuge Security Code",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Recorder",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 10
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Red Coral Jewelry",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Reinforced Reception Security Code",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": null,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Remote Control",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Sensors",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 7
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Remote Raider Flare",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Resin",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ripped Safety Vest",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Durable Cloth",
+        "quantity": 1
+      },
+      {
+        "material": "Magnet",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rocket Thruster",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Synthesized Fuel",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rocketeer Driver",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 2
+      },
+      {
+        "material": "ARC Alloy",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "Out Of The Shadows (1×)",
+    "Workshop": "Explosives Station 3 (3×)"
+  },
+  {
+    "Item": "Roots",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 10,
+    "Category": "Nature",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rope",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 500,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rosary",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rotary Encoder",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 2
+      },
+      {
+        "material": "Processor",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rubber Duck",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 15,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rubber Pad",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 18
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rubber Parts",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 50,
+    "Stack Size": 50,
+    "Category": "Basic Material",
+    "Quests": null,
+    "Workshop": "Gunsmith 1 (30×)"
+  },
+  {
+    "Item": "Ruined Accordion",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 18
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ruined Augment",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 2
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 270,
+    "Stack Size": 1,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ruined Baton",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ruined Handcuffs",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ruined Parachute",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 10
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ruined Riot Shield",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 10
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Ruined Tactical Vest",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Magnet",
+        "quantity": 1
+      },
+      {
+        "material": "Fabric",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rusted Bolts",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Rusted Gear",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Gunsmith 3 (3×)"
+  },
+  {
+    "Item": "Rusted Shut Medical Kit",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Antiseptic",
+        "quantity": 1
+      },
+      {
+        "material": "Syringe",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Medical Lab 3 (3×)"
+  },
+  {
+    "Item": "Rusted Tools",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Steel Spring",
+        "quantity": 1
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Gunsmith 2 (3×)"
+  },
+  {
+    "Item": "Rusty ARC Steel",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 8
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Sample Cleaner",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Assorted Seeds",
+        "quantity": 14
+      },
+      {
+        "material": "Electrical Components",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Seeker Grenade",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Crude Explosives",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Sensors",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 500,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Sentinel Firing Core",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      },
+      {
+        "material": "Mechanical Components",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Gunsmith 3 (4×)"
+  },
+  {
+    "Item": "Shaker",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 10
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shield Recharger",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 520,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shotgun Ammo",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 20,
+    "Stack Size": 20,
+    "Category": "Ammunition",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shotgun Choke I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shotgun Choke II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shotgun Choke III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shotgun Silencer",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Showstopper",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Battery",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2200,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shrapnel Grenade",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Crude Explosives",
+        "quantity": 1
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 800,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Shredder Gyro",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 3
+      },
+      {
+        "material": "Mechanical Components",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Signal Amplifier",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 2
+      },
+      {
+        "material": "Voltage Converter",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Silencer I",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Silencer II",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Silencer III",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 7000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Silver Teaspoon Set",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Simple Gun Parts",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 330,
+    "Stack Size": 10,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Smoke Grenade",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Canister",
+        "quantity": 1
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Smoke Grenade Trap",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Snap Blast Grenade",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Magnet",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 800,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Snap Hook",
+    "Rarity": "Legendary",
+    "Recycles To": [
+      {
+        "material": "Power Rod",
+        "quantity": 1
+      },
+      {
+        "material": "Rope",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 14000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Snitch Scanner",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      },
+      {
+        "material": "Electrical Components",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "The Trifecta (2×)",
+    "Workshop": "Utility Station 2 (6×)"
+  },
+  {
+    "Item": "Snowball",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 10,
+    "Stack Size": 5,
+    "Category": "Misc",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spaceport Container Storage Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spaceport Control Tower Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spaceport Trench Tower Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spaceport Warehouse Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Speaker Component",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 2
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 500,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spectrometer",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Sensors",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spectrum Analyzer",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Exodus Modules",
+        "quantity": 1
+      },
+      {
+        "material": "Sensors",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 3500,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spotter Relay",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      },
+      {
+        "material": "Electrical Components",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Spring Cushion",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Durable Cloth",
+        "quantity": 2
+      },
+      {
+        "material": "Steel Spring",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Stable Stock I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Stable Stock II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Duct Tape",
+        "quantity": 1
+      },
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Stable Stock III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mod Components",
+        "quantity": 1
+      },
+      {
+        "material": "Duct Tape",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Statuette",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Steel Spring",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 300,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Stella Montis Archives Key",
+    "Rarity": "Epic",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Stella Montis Assembly Admin Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 250,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Stella Montis Medical Storage Key",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Stella Montis Security Checkpoint Key",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 100,
+    "Stack Size": 1,
+    "Category": "Key",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Sterilized Bandage",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Antiseptic",
+        "quantity": 1
+      },
+      {
+        "material": "Fabric",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Surge Shield Recharger",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1200,
+    "Stack Size": 5,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Surveyor Vault",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      },
+      {
+        "material": "Mechanical Components",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "Mixed Signals (1×)",
+    "Workshop": "Medical Lab 3 (5×)"
+  },
+  {
+    "Item": "Synthesized Fuel",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Oil",
+        "quantity": 1
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 700,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": "Explosives Station 2 (3×)"
+  },
+  {
+    "Item": "Syringe",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 2
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 500,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": "Doctor's Orders (1×)",
+    "Workshop": null
+  },
+  {
+    "Item": "Tactical Mk. 1",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 3
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tactical Mk. 2",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Magnet",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tactical Mk. 3 (Defensive)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tactical Mk. 3 (Healing)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tagging Grenade",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 1
+      },
+      {
+        "material": "Sensors",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tattered ARC Lining",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 12
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tattered Clothes",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 11
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Telemetry Transceiver",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Thermostat",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Sensors",
+        "quantity": 1
+      },
+      {
+        "material": "Rubber Parts",
+        "quantity": 7
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tick Pod",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 2
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 5,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Medical Lab 2 (8×)"
+  },
+  {
+    "Item": "Toaster",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Wires",
+        "quantity": 3
+      },
+      {
+        "material": "Plastic Parts",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": "Refiner 2 (3×)"
+  },
+  {
+    "Item": "Torn Blanket",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Fabric",
+        "quantity": 12
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Torn Book",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 1000,
+    "Stack Size": 5,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Trailblazer",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Crude Explosives",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 1600,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Trigger 'Nade",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Chemicals",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Turbo Pump",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Oil",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Unusable Weapon",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 4
+      },
+      {
+        "material": "Simple Gun Parts",
+        "quantity": 5
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Vase",
+    "Rarity": "Rare",
+    "Recycles To": null,
+    "Sell Price": 3000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Vertical Grip I",
+    "Rarity": "Common",
+    "Recycles To": [
+      {
+        "material": "Plastic Parts",
+        "quantity": 6
+      }
+    ],
+    "Sell Price": 640,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Vertical Grip II",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Duct Tape",
+        "quantity": 1
+      },
+      {
+        "material": "Mechanical Components",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 2000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Vertical Grip III",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Duct Tape",
+        "quantity": 2
+      },
+      {
+        "material": "Mechanical Components",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Modification",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Very Comfortable Pillow",
+    "Rarity": "Uncommon",
+    "Recycles To": null,
+    "Sell Price": 2000,
+    "Stack Size": 3,
+    "Category": "Trinket",
+    "Quests": null,
+    "Workshop": "Scrappy 5 (3×)"
+  },
+  {
+    "Item": "Vita Shot",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Syringe",
+        "quantity": 1
+      },
+      {
+        "material": "Chemicals",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 2200,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Vita Spray",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Antiseptic",
+        "quantity": 1
+      },
+      {
+        "material": "Canister",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 3000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Volcanic Rock",
+    "Rarity": "Common",
+    "Recycles To": null,
+    "Sell Price": 270,
+    "Stack Size": 5,
+    "Category": "Misc",
+    "Quests":
+    null,
+    "Workshop": null
+  },
+  {
+    "Item": "Voltage Converter",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 1
+      },
+      {
+        "material": "Wires",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 500,
+    "Stack Size": 5,
+    "Category": "Topside Material",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Wasp Driver",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "ARC Alloy",
+        "quantity": 1
+      },
+      {
+        "material": "Electrical Components",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": "The Trifecta (2×)",
+    "Workshop": "Gunsmith 1 (8×)"
+  },
+  {
+    "Item": "Water Filter",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 2
+      },
+      {
+        "material": "Canister",
+        "quantity": 3
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Water Pump",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Oil",
+        "quantity": 2
+      },
+      {
+        "material": "Metal Parts",
+        "quantity": 4
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Recyclable",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Wires",
+    "Rarity": "Uncommon",
+    "Recycles To": [
+      {
+        "material": "Rubber Parts",
+        "quantity": 2
+      }
+    ],
+    "Sell Price": 200,
+    "Stack Size": 15,
+    "Category": "Topside Material",
+    "Quests": "After Rain Comes (5×)\nEyes On The Prize (3×)\nTrash Into Treasure (6×)",
+    "Workshop": null
+  },
+  {
+    "Item": "Wolfpack",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "ARC Motion Core",
+        "quantity": 1
+      },
+      {
+        "material": "Explosive Compound",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Zipline",
+    "Rarity": "Rare",
+    "Recycles To": [
+      {
+        "material": "Metal Parts",
+        "quantity": 1
+      },
+      {
+        "material": "Rope",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 1000,
+    "Stack Size": 3,
+    "Category": "Quick Use",
+    "Quests": null,
+    "Workshop": null
+  }
+]
+

@@ -1,50 +1,201 @@
-# Welcome to your Expo app 👋
+# Arc Raiders Loadout Builder
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A web application to help players track items and materials needed for their Arc Raiders loadouts, with stash optimization for maximum efficiency.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Loadout Builder**: Select items you want to use in your loadout
+- **Material Calculator**: Automatically calculates all intermediate and raw materials needed
+- **Stash Optimizer**: Provides recommendations for managing your 280-item stash limit
+- **Wiki Integration**: Scrapes data from Arc Raiders wikis for up-to-date item information
 
-   ```bash
-   npm install
-   ```
+## Prerequisites
 
-2. Start the app
+- Node.js (v16 or higher)
+- npm
 
-   ```bash
-   npx expo start
-   ```
+## Setup
 
-In the output, you'll find options to open the app in a
+### 1. Install Dependencies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+Install frontend dependencies:
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Install backend dependencies:
+```bash
+cd server
+npm install
+cd ..
+```
 
-## Learn more
+### 2. Populate the Database
 
-To learn more about developing your project with Expo, look at the following resources:
+**IMPORTANT**: You must populate the database before using the app!
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cd server
+npm run populate
+cd ..
+```
 
-## Join the community
+This command will:
+1. Seed the database with example items (Anvil IV, Medium Shield, Looting Mk. 3, etc.)
+2. Scrape data from the Arc Raiders wikis
+3. Store all items and recipes in the database
 
-Join our community of developers creating universal apps.
+**Alternative**: If you only want the example items without scraping:
+```bash
+cd server
+npm run seed
+cd ..
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 3. Verify Database (Optional)
+
+Check what's in your database:
+```bash
+cd server
+npm run verify
+cd ..
+```
+
+### 4. Start the Backend Server
+
+In a terminal, start the API server:
+```bash
+cd server
+npm start
+```
+
+The server will run on `http://localhost:3001`
+
+### 5. Start the Frontend
+
+In another terminal, start the Expo web server:
+```bash
+npm run web
+```
+
+The application will open in your browser automatically.
+
+## Usage
+
+1. **Select Items**: Use the search and filter to find items you want in your loadout
+2. **Build Loadout**: Click items to add them to your selected loadout
+3. **Calculate Materials**: Click "Calculate Materials" to see what you need
+4. **View Results**: 
+   - See intermediate materials (components, gun parts, etc.)
+   - See raw materials (metal, rubber, wires, etc.)
+   - View stash optimization recommendations
+
+## Example
+
+Try selecting these items:
+- Anvil IV
+- Medium Shield
+- Looting Mk. 3 (Cautious)
+
+The app will show you need:
+- **Intermediate Materials**: Mechanical Components (16), Simple Gun Parts (7), Heavy Gun Parts (2), ARC Circuitry (1), Advanced Electrical Components (1), Processor (1)
+- **Raw Materials**: Metal, Rubber, Wire, ARC Alloy (calculated from intermediate materials)
+
+## Troubleshooting
+
+### No items showing up when searching
+
+**Solution**: Make sure you've populated the database:
+```bash
+cd server
+npm run populate
+cd ..
+```
+
+Then verify items are in the database:
+```bash
+cd server
+npm run verify
+cd ..
+```
+
+### Backend won't start
+- Make sure port 3001 is not in use
+- Check that all dependencies are installed: `cd server && npm install`
+- Check that the database file exists: `server/database/arcraiders.db`
+
+### Frontend can't connect to backend
+- Ensure the backend is running on port 3001
+- Check the API URL in `app/services/api.ts` (defaults to `http://localhost:3001/api`)
+- Check browser console for CORS errors
+
+### Calculations not working
+- Ensure items have recipes in the database
+- Check the server console for error messages
+- Verify items exist: `cd server && npm run verify`
+
+### Scraper not finding items
+- Wiki pages may have changed structure - the scraper will try multiple parsing methods
+- Some items may need to be added manually via the seed script
+- Check server console for scraping errors
+
+## Project Structure
+
+```
+arcLB/
+├── app/                    # Frontend React Native/Expo app
+│   ├── components/         # React components
+│   ├── hooks/             # Custom React hooks
+│   ├── services/          # API client
+│   └── index.tsx          # Main app page
+├── server/                 # Backend Express API
+│   ├── database/          # Database schema and connection
+│   ├── routes/            # API routes
+│   ├── services/          # Business logic (calculator, scraper, optimizer)
+│   └── scripts/           # Utility scripts (scraper, seed, populate)
+└── package.json           # Frontend dependencies
+```
+
+## API Endpoints
+
+- `GET /api/items` - List all items (supports `?search=` and `?type=` query params)
+- `GET /api/items/:name` - Get specific item with recipes
+- `POST /api/loadout/calculate` - Calculate materials for selected items
+  ```json
+  {
+    "items": ["Anvil IV", "Medium Shield", "Looting Mk. 3 (Cautious)"]
+  }
+  ```
+
+## Development
+
+### Backend Development
+```bash
+cd server
+npm run dev  # Auto-reload on file changes
+```
+
+### Frontend Development
+The Expo dev server automatically reloads on file changes when running `npm run web`.
+
+### Database Scripts
+
+- `npm run seed` - Load example items only (fast)
+- `npm run populate` - Load example items + scrape wikis (slower, more complete)
+- `npm run scrape` - Scrape wikis only
+- `npm run verify` - Check what's in the database
+
+## Database
+
+The application uses SQLite (via `better-sqlite3`) for data storage. The database file is created at `server/database/arcraiders.db`.
+
+### Database Schema
+
+- **items**: Game items (weapons, shields, augments, materials)
+- **materials**: Components and raw materials
+- **recipes**: Crafting and upgrade recipes
+- **recipe_materials**: Materials required for each recipe
+
+## License
+
+Private project
