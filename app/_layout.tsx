@@ -1,5 +1,5 @@
 import { Tabs } from "expo-router";
-import { ThemeProvider, useTheme } from "./contexts/ThemeContext";
+import { ThemeProvider, useTheme } from "./_contexts/ThemeContext";
 
 function TabNavigator() {
   const { colors } = useTheme();

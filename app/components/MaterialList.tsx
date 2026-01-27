@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import { Material } from '../services/api';
-import { useTheme } from '../contexts/ThemeContext';
+import { Material } from '../_services/api';
+import { useTheme } from '../_contexts/ThemeContext';
 
 interface MaterialListProps {
   direct: Material[];

@@ -1,9 +1,9 @@
 import { Ionicons } from '@expo/vector-icons';
 import React, { useMemo } from 'react';
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
-import { useTheme } from '../contexts/ThemeContext';
-import { Material } from '../services/api';
-import { getItemImageSource, getMaterialImageSource } from '../utils/itemImages';
+import { useTheme } from '../_contexts/ThemeContext';
+import { Material } from '../_services/api';
+import { getItemImageSource, getMaterialImageSource } from '../_utils/itemImages';
 import { MaterialHeatmap } from './MaterialHeatmap';
 
 function slug(s: string): string {

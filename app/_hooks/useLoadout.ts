@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
-import { Material } from '../services/api';
-import { storage } from '../utils/storage';
-import { calculateRawMaterialsFromLocal } from '../utils/materialCalculator';
+import { Material } from '../_services/api';
+import { storage } from '../_utils/storage';
+import { calculateRawMaterialsFromLocal } from '../_utils/materialCalculator';
 
 export interface LootPlannerCalculation {
   directRecipes: Material[]; // Intermediate materials (e.g., Advanced Electrical Components)

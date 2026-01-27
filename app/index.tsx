@@ -5,10 +5,10 @@ import { DarkModeToggle } from './components/DarkModeToggle';
 import { ItemSelector } from './components/ItemSelector';
 import { MaterialHeatmap } from './components/MaterialHeatmap';
 import { RawMaterialsList } from './components/RawMaterialsList';
-import { useTheme } from './contexts/ThemeContext';
-import { useLoadout } from './hooks/useLoadout';
-import { api, Item } from './services/api';
-import { getItemImageSource } from './utils/itemImages';
+import { useTheme } from './_contexts/ThemeContext';
+import { useLoadout } from './_hooks/useLoadout';
+import { api, Item } from './_services/api';
+import { getItemImageSource } from './_utils/itemImages';
 
 function slug(s: string): string {
   return s.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');

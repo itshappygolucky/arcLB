@@ -16,9 +16,9 @@ import {
   useWindowDimensions,
 } from 'react-native';
 import { ITEM_IMAGES } from '../item-images.generated';
-import { useTheme } from './contexts/ThemeContext';
-import { AUGMENT_IMAGE_KEYS, BACKPACK_IMAGE_ALIAS, getAugmentImageSource, getItemImageSource, getMaterialImageSource } from './utils/itemImages';
-import { SavedLoadout, storage } from './utils/storage';
+import { useTheme } from './_contexts/ThemeContext';
+import { AUGMENT_IMAGE_KEYS, BACKPACK_IMAGE_ALIAS, getAugmentImageSource, getItemImageSource, getMaterialImageSource } from './_utils/itemImages';
+import { SavedLoadout, storage } from './_utils/storage';
 
 type AugmentId = string;
 

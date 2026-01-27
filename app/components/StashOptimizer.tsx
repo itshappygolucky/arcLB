@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
-import { LoadoutCalculation } from '../services/api';
-import { useTheme } from '../contexts/ThemeContext';
+import { LoadoutCalculation } from '../_services/api';
+import { useTheme } from '../_contexts/ThemeContext';
 
 interface StashOptimizerProps {
   optimization: LoadoutCalculation['optimization'];

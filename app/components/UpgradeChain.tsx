@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
-import { UpgradeChain as UpgradeChainType } from '../services/api';
-import { useTheme } from '../contexts/ThemeContext';
+import { UpgradeChain as UpgradeChainType } from '../_services/api';
+import { useTheme } from '../_contexts/ThemeContext';
 
 interface UpgradeChainProps {
   chains: UpgradeChainType[];
