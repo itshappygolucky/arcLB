@@ -304,6 +304,12 @@ export default function Index() {
     },
   });
 
+  // Test function to verify interactions work
+  const testClick = () => {
+    console.log('Test button clicked!');
+    alert('Button click works!');
+  };
+
   return (
     <View style={dynamicStyles.container}>
       <View style={dynamicStyles.header}>
@@ -312,8 +318,18 @@ export default function Index() {
           <Text style={dynamicStyles.headerSubtitle}>Track materials to keep while looting</Text>
         </View>
         <View style={styles.headerActions}>
+          {/* Test button */}
           <TouchableOpacity 
-            onPress={onExport}
+            onPress={testClick}
+            style={[styles.importButton, { backgroundColor: '#00ff00', marginRight: 4 }]}
+          >
+            <Text style={styles.importButtonText}>TEST</Text>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            onPress={() => {
+              console.log('Export clicked');
+              onExport();
+            }}
             style={[styles.exportButton, { backgroundColor: colors.primary + '20', borderColor: colors.primary }]}
             disabled={favoritedItems.length === 0}
           >
@@ -321,14 +337,20 @@ export default function Index() {
             <Text style={[styles.exportButtonText, { color: colors.primary, opacity: favoritedItems.length === 0 ? 0.5 : 1 }]}>Export</Text>
           </TouchableOpacity>
           <TouchableOpacity 
-            onPress={onImport}
+            onPress={() => {
+              console.log('Import clicked');
+              onImport();
+            }}
             style={[styles.importButton, { backgroundColor: colors.primary }]}
           >
             <Ionicons name="cloud-upload-outline" size={14} color="#fff" />
             <Text style={styles.importButtonText}>Import</Text>
           </TouchableOpacity>
           <TouchableOpacity 
-            onPress={clearLoadout}
+            onPress={() => {
+              console.log('Clear clicked');
+              clearLoadout();
+            }}
             style={[styles.clearButtonHeader, { backgroundColor: colors.error }]}
             disabled={favoritedItems.length === 0}
           >
