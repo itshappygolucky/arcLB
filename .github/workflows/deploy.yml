@@ -38,6 +38,9 @@ jobs:
       - name: Fix baseUrl paths
         run: npm run fix:baseurl
       
+      - name: Clean build
+        run: npm run clean:build
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
