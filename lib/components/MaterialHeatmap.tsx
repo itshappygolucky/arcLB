@@ -76,34 +76,31 @@ export function MaterialHeatmap({ directRecipes, rawMaterials, materialUsage }: 
   const { colors } = useTheme();
   const [viewMode, setViewMode] = useState<'heatmap' | 'rarity'>('heatmap');
 
-  // Combine all materials and calculate utility
-  const materialsWithUtility = useMemo(() => {
-    const allMaterials = new Map<string, MaterialWithUtility>();
-
-    // Add direct recipes
-    directRecipes.forEach(material => {
+  // Process direct recipes (immediate crafting items) separately
+  const directRecipesWithUtility = useMemo(() => {
+    return directRecipes.map(material => {
       const usageCount = materialUsage[material.name]?.length || 0;
-      allMaterials.set(material.name, {
+      return {
         ...material,
         utility: usageCount,
-      });
+      };
     });
+  }, [directRecipes, materialUsage]);
 
-    // Add raw materials (may override if already exists, but that's fine)
-    rawMaterials.forEach(material => {
+  // Process raw materials separately
+  const rawMaterialsWithUtility = useMemo(() => {
+    return rawMaterials.map(material => {
       const usageCount = materialUsage[material.name]?.length || 0;
-      allMaterials.set(material.name, {
+      return {
         ...material,
         utility: usageCount,
-      });
+      };
     });
+  }, [rawMaterials, materialUsage]);
 
-    return Array.from(allMaterials.values());
-  }, [directRecipes, rawMaterials, materialUsage]);
-
-  // Sort by utility (descending) and calculate color scale
-  const sortedMaterialsByUtility = useMemo(() => {
-    const sorted = [...materialsWithUtility].sort((a, b) => b.utility - a.utility);
+  // Sort direct recipes by utility (descending) and calculate color scale
+  const sortedDirectRecipesByUtility = useMemo(() => {
+    const sorted = [...directRecipesWithUtility].sort((a, b) => b.utility - a.utility);
     
     if (sorted.length === 0) return [];
 
@@ -116,17 +113,40 @@ export function MaterialHeatmap({ directRecipes, rawMaterials, materialUsage }: 
     return sorted.map(material => {
       const normalized = range > 0 
         ? (material.utility - minUtility) / range 
-        : 0.5; // If all have same utility, use middle color
+        : 0.5;
       return {
         ...material,
         color: getUtilityColor(normalized),
       };
     });
-  }, [materialsWithUtility]);
+  }, [directRecipesWithUtility]);
 
-  // Sort by rarity (descending)
-  const sortedMaterialsByRarity = useMemo(() => {
-    return [...materialsWithUtility]
+  // Sort raw materials by utility (descending) and calculate color scale
+  const sortedRawMaterialsByUtility = useMemo(() => {
+    const sorted = [...rawMaterialsWithUtility].sort((a, b) => b.utility - a.utility);
+    
+    if (sorted.length === 0) return [];
+
+    // Find min and max utility for normalization
+    const minUtility = Math.min(...sorted.map(m => m.utility));
+    const maxUtility = Math.max(...sorted.map(m => m.utility));
+    const range = maxUtility - minUtility;
+
+    // Normalize and assign colors
+    return sorted.map(material => {
+      const normalized = range > 0 
+        ? (material.utility - minUtility) / range 
+        : 0.5;
+      return {
+        ...material,
+        color: getUtilityColor(normalized),
+      };
+    });
+  }, [rawMaterialsWithUtility]);
+
+  // Sort direct recipes by rarity (descending)
+  const sortedDirectRecipesByRarity = useMemo(() => {
+    return [...directRecipesWithUtility]
       .map(material => {
         const rarity = ITEM_RARITY_MAP.get(material.name) || 'common';
         const rarityOrder = RARITY_ORDER[rarity] || 0;
@@ -139,16 +159,37 @@ export function MaterialHeatmap({ directRecipes, rawMaterials, materialUsage }: 
         };
       })
       .sort((a, b) => {
-        // First sort by rarity (descending)
         if (b.rarityOrder !== a.rarityOrder) {
           return b.rarityOrder - a.rarityOrder;
         }
-        // Then by name for same rarity
         return a.name.localeCompare(b.name);
       });
-  }, [materialsWithUtility]);
+  }, [directRecipesWithUtility]);
 
-  const sortedMaterials = viewMode === 'heatmap' ? sortedMaterialsByUtility : sortedMaterialsByRarity;
+  // Sort raw materials by rarity (descending)
+  const sortedRawMaterialsByRarity = useMemo(() => {
+    return [...rawMaterialsWithUtility]
+      .map(material => {
+        const rarity = ITEM_RARITY_MAP.get(material.name) || 'common';
+        const rarityOrder = RARITY_ORDER[rarity] || 0;
+        const rarityColor = WEAPON_RARITY_COLORS[rarity] || WEAPON_RARITY_COLORS.common;
+        return {
+          ...material,
+          rarity,
+          rarityOrder,
+          rarityColor,
+        };
+      })
+      .sort((a, b) => {
+        if (b.rarityOrder !== a.rarityOrder) {
+          return b.rarityOrder - a.rarityOrder;
+        }
+        return a.name.localeCompare(b.name);
+      });
+  }, [rawMaterialsWithUtility]);
+
+  const sortedDirectRecipes = viewMode === 'heatmap' ? sortedDirectRecipesByUtility : sortedDirectRecipesByRarity;
+  const sortedRawMaterials = viewMode === 'heatmap' ? sortedRawMaterialsByUtility : sortedRawMaterialsByRarity;
 
   const dynamicStyles = StyleSheet.create({
     container: {
@@ -174,9 +215,67 @@ export function MaterialHeatmap({ directRecipes, rawMaterials, materialUsage }: 
     },
   });
 
-  if (sortedMaterials.length === 0) {
+  if (sortedDirectRecipes.length === 0 && sortedRawMaterials.length === 0) {
     return null;
   }
+
+  const renderMaterialRow = (material: any, index: number, section: 'direct' | 'raw') => {
+    const imgSrc = getMaterialImageSource(material.name);
+    const backgroundColor = viewMode === 'heatmap' 
+      ? material.color 
+      : material.rarityColor || colors.background;
+    const isRarityView = viewMode === 'rarity';
+    const rarity = isRarityView ? material.rarity : null;
+    
+    return (
+      <View
+        key={`${section}-${viewMode}-${index}`}
+        style={[
+          styles.materialRow,
+          { backgroundColor },
+          isRarityView && { borderLeftWidth: 3, borderLeftColor: backgroundColor },
+        ]}
+      >
+        {imgSrc && (
+          <Image source={imgSrc} style={styles.materialImage} />
+        )}
+        <View style={styles.materialInfo}>
+          <Text style={[
+            styles.materialName, 
+            dynamicStyles.materialName,
+            isRarityView && { color: colors.text }
+          ]}>
+            {material.name}
+          </Text>
+          <View style={[
+            styles.utilityBadge, 
+            dynamicStyles.utilityBadge,
+            isRarityView && { backgroundColor: 'rgba(255, 255, 255, 0.2)' }
+          ]}>
+            {viewMode === 'heatmap' ? (
+              <Text style={[styles.utilityText, dynamicStyles.utilityText]}>
+                Used by {material.utility} item{material.utility !== 1 ? 's' : ''}
+              </Text>
+            ) : (
+              <Text style={[
+                styles.utilityText, 
+                { color: '#fff', fontWeight: '600' }
+              ]}>
+                {rarity ? rarity.charAt(0).toUpperCase() + rarity.slice(1) : 'Common'}
+              </Text>
+            )}
+          </View>
+        </View>
+        <Text style={[
+          styles.materialQuantity, 
+          dynamicStyles.materialQuantity,
+          isRarityView && { color: colors.text }
+        ]}>
+          ×{material.quantity}
+        </Text>
+      </View>
+    );
+  };
 
   return (
     <View style={[styles.container, dynamicStyles.container]}>
@@ -226,65 +325,31 @@ export function MaterialHeatmap({ directRecipes, rawMaterials, materialUsage }: 
         </View>
       </View>
 
-      <ScrollView style={styles.list}>
-        {sortedMaterials.map((material, index) => {
-          const imgSrc = getMaterialImageSource(material.name);
-          const backgroundColor = viewMode === 'heatmap' 
-            ? (material as any).color 
-            : (material as any).rarityColor || colors.background;
-          const isRarityView = viewMode === 'rarity';
-          const rarity = isRarityView ? (material as any).rarity : null;
-          
-          return (
-            <View
-              key={`${viewMode}-${index}`}
-              style={[
-                styles.materialRow,
-                { backgroundColor },
-                isRarityView && { borderLeftWidth: 3, borderLeftColor: backgroundColor },
-              ]}
-            >
-              {imgSrc && (
-                <Image source={imgSrc} style={styles.materialImage} />
-              )}
-              <View style={styles.materialInfo}>
-                <Text style={[
-                  styles.materialName, 
-                  dynamicStyles.materialName,
-                  isRarityView && { color: colors.text }
-                ]}>
-                  {material.name}
-                </Text>
-                <View style={[
-                  styles.utilityBadge, 
-                  dynamicStyles.utilityBadge,
-                  isRarityView && { backgroundColor: 'rgba(255, 255, 255, 0.2)' }
-                ]}>
-                  {viewMode === 'heatmap' ? (
-                    <Text style={[styles.utilityText, dynamicStyles.utilityText]}>
-                      Used by {material.utility} item{material.utility !== 1 ? 's' : ''}
-                    </Text>
-                  ) : (
-                    <Text style={[
-                      styles.utilityText, 
-                      { color: '#fff', fontWeight: '600' }
-                    ]}>
-                      {rarity ? rarity.charAt(0).toUpperCase() + rarity.slice(1) : 'Common'}
-                    </Text>
-                  )}
-                </View>
-              </View>
-              <Text style={[
-                styles.materialQuantity, 
-                dynamicStyles.materialQuantity,
-                isRarityView && { color: colors.text }
-              ]}>
-                ×{material.quantity}
-              </Text>
-            </View>
-          );
-        })}
-      </ScrollView>
+      <View style={styles.splitContainer}>
+        {/* Top Half: Immediate Crafting Items */}
+        {sortedDirectRecipes.length > 0 && (
+          <View style={styles.halfSection}>
+            <Text style={[styles.subsectionTitle, dynamicStyles.sectionSubtitle]}>
+              Immediate Crafting Items
+            </Text>
+            <ScrollView style={styles.halfList} contentContainerStyle={styles.halfListContent}>
+              {sortedDirectRecipes.map((material, index) => renderMaterialRow(material, index, 'direct'))}
+            </ScrollView>
+          </View>
+        )}
+
+        {/* Bottom Half: Raw Material Cost */}
+        {sortedRawMaterials.length > 0 && (
+          <View style={styles.halfSection}>
+            <Text style={[styles.subsectionTitle, dynamicStyles.sectionSubtitle]}>
+              Raw Material Cost
+            </Text>
+            <ScrollView style={styles.halfList} contentContainerStyle={styles.halfListContent}>
+              {sortedRawMaterials.map((material, index) => renderMaterialRow(material, index, 'raw'))}
+            </ScrollView>
+          </View>
+        )}
+      </View>
     </View>
   );
 }
@@ -326,6 +391,27 @@ const styles = StyleSheet.create({
   sectionSubtitle: {
     fontSize: 11,
     fontStyle: 'italic',
+  },
+  splitContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    gap: 12,
+  },
+  halfSection: {
+    flex: 1,
+    minHeight: 0,
+  },
+  subsectionTitle: {
+    fontSize: 12,
+    fontWeight: '600',
+    marginBottom: 8,
+    opacity: 0.8,
+  },
+  halfList: {
+    flex: 1,
+  },
+  halfListContent: {
+    paddingBottom: 4,
   },
   list: {
     flex: 1,
