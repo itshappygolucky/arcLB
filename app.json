@@ -23,8 +23,7 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png",
-      "baseUrl": "/arcLB"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",

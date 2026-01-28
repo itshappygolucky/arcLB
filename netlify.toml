@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build:web && npm run clean:build"
+  publish = "web-build"
+
+# Redirect all routes to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  EXPO_PUBLIC_API_URL = "https://arclb-production-6b33.up.railway.app/api"
+  NODE_VERSION = "20"
