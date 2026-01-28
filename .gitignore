@@ -45,3 +45,6 @@ app-example
 # database
 server/database/*.db
 server/database/*.db-journal
+
+# Local Netlify folder
+.netlify
