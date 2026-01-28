@@ -35,6 +35,9 @@ jobs:
           EXPO_PUBLIC_API_URL: https://arclb-production-6b33.up.railway.app/api
         run: npm run build:web
       
+      - name: Fix baseUrl paths
+        run: npm run fix:baseurl
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
       

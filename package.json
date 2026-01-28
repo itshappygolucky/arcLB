@@ -10,8 +10,9 @@
     "web": "expo start --web",
     "lint": "expo lint",
     "build:web": "expo export --platform web --output-dir web-build",
+    "fix:baseurl": "node ./scripts/fix-baseurl.js",
     "clean:build": "node ./scripts/clean-build.js",
-    "deploy": "npm run build:web && npm run clean:build && gh-pages -d web-build --repo https://github.com/itshappygolucky/arcLB.git"
+    "deploy": "npm run build:web && npm run fix:baseurl && npm run clean:build && gh-pages -d web-build --repo https://github.com/itshappygolucky/arcLB.git"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
