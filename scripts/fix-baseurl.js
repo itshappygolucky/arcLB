@@ -19,6 +19,9 @@ function fixBaseUrlInFile(filePath) {
       // Fix JSON imports and other references
       { from: /"\/_expo\//g, to: `"${baseUrl}/_expo/` },
       { from: /"\/assets\//g, to: `"${baseUrl}/assets/` },
+      // Fix route references in JSON/manifest files
+      { from: /\/index\.html/g, to: `${baseUrl}/index.html` },
+      { from: /\/planner\.html/g, to: `${baseUrl}/planner.html` },
     ];
 
     patterns.forEach(({ from, to }) => {
@@ -63,4 +66,22 @@ function processDirectory(dir) {
 
 console.log('Fixing baseUrl paths in build output...');
 processDirectory(webBuildDir);
+
+// Create 404.html for GitHub Pages to redirect to index.html
+const indexPath = path.join(webBuildDir, 'index.html');
+const notFoundPath = path.join(webBuildDir, '404.html');
+
+if (fs.existsSync(indexPath)) {
+  try {
+    let indexContent = fs.readFileSync(indexPath, 'utf8');
+    // Update baseUrl in 404.html copy
+    indexContent = indexContent.replace(/\/_expo\//g, `${baseUrl}/_expo/`);
+    indexContent = indexContent.replace(/\/assets\//g, `${baseUrl}/assets/`);
+    fs.writeFileSync(notFoundPath, indexContent, 'utf8');
+    console.log('✓ Created 404.html for GitHub Pages');
+  } catch (error) {
+    console.error('Error creating 404.html:', error.message);
+  }
+}
+
 console.log('✓ BaseUrl paths fixed');
