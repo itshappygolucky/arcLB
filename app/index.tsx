@@ -1,14 +1,14 @@
 import { Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import { Alert, Image, Modal, Platform, ScrollView, Share, StyleSheet, Text, TextInput, TouchableOpacity, useWindowDimensions, View } from 'react-native';
-import { DarkModeToggle } from './components/DarkModeToggle';
-import { ItemSelector } from './components/ItemSelector';
-import { MaterialHeatmap } from './components/MaterialHeatmap';
-import { RawMaterialsList } from './components/RawMaterialsList';
-import { useTheme } from './_contexts/ThemeContext';
-import { useLoadout } from './_hooks/useLoadout';
-import { api, Item } from './_services/api';
-import { getItemImageSource } from './_utils/itemImages';
+import { DarkModeToggle } from '../lib/components/DarkModeToggle';
+import { ItemSelector } from '../lib/components/ItemSelector';
+import { MaterialHeatmap } from '../lib/components/MaterialHeatmap';
+import { RawMaterialsList } from '../lib/components/RawMaterialsList';
+import { useTheme } from '../lib/contexts/ThemeContext';
+import { useLoadout } from '../lib/hooks/useLoadout';
+import { api, Item } from '../lib/services/api';
+import { getItemImageSource } from '../lib/utils/itemImages';
 
 function slug(s: string): string {
   return s.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');

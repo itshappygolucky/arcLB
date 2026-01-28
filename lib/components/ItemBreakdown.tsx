@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { ItemBreakdown as ItemBreakdownType, MaterialBreakdown } from '../_services/api';
-import { useTheme } from '../_contexts/ThemeContext';
+import { ItemBreakdown as ItemBreakdownType, MaterialBreakdown } from '../services/api';
+import { useTheme } from '../contexts/ThemeContext';
 
 interface ItemBreakdownProps {
   breakdown: ItemBreakdownType;

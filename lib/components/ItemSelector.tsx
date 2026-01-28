@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { View, Text, TextInput, FlatList, TouchableOpacity, StyleSheet, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useTheme } from '../_contexts/ThemeContext';
-import { getItemImageSource } from '../_utils/itemImages';
+import { useTheme } from '../contexts/ThemeContext';
+import { getItemImageSource } from '../utils/itemImages';
 
 interface ItemSelectorProps {
   onItemSelect: (itemName: string) => void;

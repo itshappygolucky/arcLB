@@ -1,9 +1,9 @@
 import { Ionicons } from '@expo/vector-icons';
 import React, { useMemo, useState } from 'react';
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { useTheme } from '../_contexts/ThemeContext';
-import { Material } from '../_services/api';
-import { getMaterialImageSource } from '../_utils/itemImages';
+import { useTheme } from '../contexts/ThemeContext';
+import { Material } from '../services/api';
+import { getMaterialImageSource } from '../utils/itemImages';
 
 // Load backpack items for rarity data
 const BACKPACK_ITEMS_RAW: { Item: string; Rarity?: string }[] = require('../../data/backpack-items.json');
