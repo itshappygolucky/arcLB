@@ -1,5 +1,10 @@
 const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3001/api';
 
+// Log API URL for debugging (only in development)
+if (typeof window !== 'undefined' && process.env.NODE_ENV !== 'production') {
+  console.log('API_BASE_URL:', API_BASE_URL);
+}
+
 export interface Item {
   id: number;
   name: string;
@@ -100,13 +105,21 @@ export const api = {
     if (type) params.append('type', type);
     
     const url = `${API_BASE_URL}/items${params.toString() ? `?${params.toString()}` : ''}`;
-    const response = await fetch(url);
     
-    if (!response.ok) {
-      throw new Error('Failed to fetch items');
+    try {
+      const response = await fetch(url);
+      
+      if (!response.ok) {
+        console.error('API Error:', response.status, response.statusText);
+        throw new Error(`Failed to fetch items: ${response.status} ${response.statusText}`);
+      }
+      
+      return response.json();
+    } catch (error) {
+      console.error('Fetch error:', error);
+      // Return empty array instead of throwing to prevent app crash
+      return [];
     }
-    
-    return response.json();
   },
 
   async getItem(name: string): Promise<Item> {

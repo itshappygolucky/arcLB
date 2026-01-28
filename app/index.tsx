@@ -87,6 +87,12 @@ export default function Index() {
     setFavoritedItems,
   } = useLoadout();
   const { colors } = useTheme();
+  
+  // Debug: Log when component mounts
+  React.useEffect(() => {
+    console.log('Index component mounted');
+    console.log('API URL:', process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3001/api');
+  }, []);
   const { width } = useWindowDimensions();
   const isDesktop = width >= 1024; // Desktop breakpoint
   const [favoritedItemDetails, setFavoritedItemDetails] = React.useState<Item[]>([]);
