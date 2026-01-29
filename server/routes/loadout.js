@@ -57,4 +57,28 @@ router.post('/breakdown', async (req, res) => {
   }
 });
 
+// POST /api/loadout/stash-optimize - Calculate stash optimization for target items
+router.post('/stash-optimize', async (req, res) => {
+  try {
+    const { targetItems, stashLimit = 280 } = req.body;
+    
+    if (!targetItems || !Array.isArray(targetItems) || targetItems.length === 0) {
+      return res.status(400).json({ error: 'targetItems array is required' });
+    }
+    
+    // Calculate materials needed for target items
+    const calculation = await calculator.calculateMaterials(targetItems);
+    
+    // Optimize stash
+    const optimization = await stashOptimizer.optimize(calculation, stashLimit);
+    
+    // Return just the optimization object (matches LoadoutCalculation['optimization'])
+    res.json(optimization);
+  } catch (error) {
+    console.error('Error calculating stash optimization:', error);
+    console.error('Stack trace:', error.stack);
+    res.status(500).json({ error: 'Failed to calculate stash optimization', details: error.message });
+  }
+});
+
 module.exports = router;

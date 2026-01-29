@@ -69,16 +69,6 @@
       "quantity": 2
     }
   ],
-  "Anvil I": [
-    {
-      "material": "Mechanical Components",
-      "quantity": 5
-    },
-    {
-      "material": "Simple Gun Parts",
-      "quantity": 6
-    }
-  ],
   "Aphelion": [
     {
       "material": "Magnetic Accelerator",
@@ -127,16 +117,6 @@
       "quantity": 8
     }
   ],
-  "Arpeggio I": [
-    {
-      "material": "Mechanical Components",
-      "quantity": 6
-    },
-    {
-      "material": "Simple Gun Parts",
-      "quantity": 6
-    }
-  ],
   "Bandage": [
     {
       "material": "Fabric",
@@ -147,20 +127,6 @@
     {
       "material": "Mechanical Components",
       "quantity": 1
-    }
-  ],
-  "Bettina I": [
-    {
-      "material": "Advanced Mechanical Components",
-      "quantity": 3
-    },
-    {
-      "material": "Canister",
-      "quantity": 3
-    },
-    {
-      "material": "Heavy Gun Parts",
-      "quantity": 3
     }
   ],
   "Binoculars": [
@@ -196,30 +162,6 @@
   "Blue Light Stick": [
     {
       "material": "Chemicals",
-      "quantity": 3
-    }
-  ],
-  "Bobcat I": [
-    {
-      "material": "Exodus Modules",
-      "quantity": 2
-    },
-    {
-      "material": "Light Gun Parts",
-      "quantity": 3
-    },
-    {
-      "material": "Magnetic Accelerator",
-      "quantity": 1
-    }
-  ],
-  "Burletta I": [
-    {
-      "material": "Mechanical Components",
-      "quantity": 3
-    },
-    {
-      "material": "Simple Gun Parts",
       "quantity": 3
     }
   ],
@@ -471,7 +413,7 @@
       "quantity": 5
     }
   ],
-  " Extended Shotgun Mag I": [
+  "Extended Shotgun Mag I": [
     {
       "material": "Plastic Parts",
       "quantity": 6
@@ -489,16 +431,6 @@
     {
       "material": "Steel Spring",
       "quantity": 3
-    }
-  ],
-  "Ferro I": [
-    {
-      "material": "Metal Parts",
-      "quantity": 5
-    },
-    {
-      "material": "Rubber Parts",
-      "quantity": 2
     }
   ],
   "Firecracker": [
@@ -585,10 +517,6 @@
     { "material": "Metal Parts", "quantity": 2 },
     { "material": "Plastic Parts", "quantity": 5 }
   ],
-  "Hairpin I": [
-    { "material": "Metal Parts", "quantity": 2 },
-    { "material": "Plastic Parts", "quantity": 5 }
-  ],
   "Heavy Ammo": {
     "output": 10,
     "ingredients": [
@@ -653,24 +581,9 @@
     { "material": "Heavy Gun Parts", "quantity": 3 },
     { "material": "Exodus Modules", "quantity": 1 }
   ],
-  "Hullcracker I": [
-    { "material": "Exodus Modules", "quantity": 1 },
-    { "material": "Heavy Gun Parts", "quantity": 3 },
-    { "material": "Magnetic Accelerator", "quantity": 1 }
-  ],
   "Il Toro": [
     { "material": "Mechanical Components", "quantity": 5 },
     { "material": "Simple Gun Parts", "quantity": 6 }
-  ],
-  "Il Toro I": [
-    {
-      "material": "Mechanical Components",
-      "quantity": 5
-    },
-    {
-      "material": "Simple Gun Parts",
-      "quantity": 6
-    }
   ],
   "Jolt Mine": [
     {
@@ -690,16 +603,6 @@
   "Kettle": [
     { "material": "Metal Parts", "quantity": 6 },
     { "material": "Rubber Parts", "quantity": 8 }
-  ],
-  "Kettle I": [
-    {
-      "material": "Metal Parts",
-      "quantity": 6
-    },
-    {
-      "material": "Rubber Parts",
-      "quantity": 8
-    }
   ],
   "Launcher Ammo": {
     "output": 6,
@@ -811,6 +714,16 @@
     {
       "material": "Processor",
       "quantity": 2
+    }
+  ],
+  "Looting Mk. 3 (Safekeeper)": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 3
     }
   ],
   "Lure Grenade": [
@@ -937,11 +850,6 @@
     { "material": "Medium Gun Parts", "quantity": 3 },
     { "material": "Wires", "quantity": 7 }
   ],
-  "Osprey I": [
-    { "material": "Advanced Mechanical Components", "quantity": 2 },
-    { "material": "Medium Gun Parts", "quantity": 3 },
-    { "material": "Wires", "quantity": 7 }
-  ],
   "Padded Stock": [
     {
       "material": "Duct Tape",
@@ -996,10 +904,6 @@
     { "material": "Metal Parts", "quantity": 16 },
     { "material": "Rubber Parts", "quantity": 12 }
   ],
-  "Rattler I": [
-    { "material": "Metal Parts", "quantity": 16 },
-    { "material": "Rubber Parts", "quantity": 12 }
-  ],
   "Red Light Stick": [
     {
       "material": "Chemicals",
@@ -1017,11 +921,6 @@
     }
   ],
   "Renegade": [
-    { "material": "Advanced Mechanical Components", "quantity": 2 },
-    { "material": "Medium Gun Parts", "quantity": 3 },
-    { "material": "Oil", "quantity": 5 }
-  ],
-  "Renegade I": [
     { "material": "Advanced Mechanical Components", "quantity": 2 },
     { "material": "Medium Gun Parts", "quantity": 3 },
     { "material": "Oil", "quantity": 5 }
@@ -1227,10 +1126,6 @@
     { "material": "Metal Parts", "quantity": 8 },
     { "material": "Rubber Parts", "quantity": 4 }
   ],
-  "Stitcher I": [
-    { "material": "Metal Parts", "quantity": 8 },
-    { "material": "Rubber Parts", "quantity": 4 }
-  ],
   "Surge Shield Recharger": [
     {
       "material": "Advanced ARC Powercell",
@@ -1281,6 +1176,16 @@
       "quantity": 3
     }
   ],
+  "Tactical Mk. 3 (Revival)": [
+    {
+      "material": "Advanced Electrical Components",
+      "quantity": 2
+    },
+    {
+      "material": "Processor",
+      "quantity": 3
+    }
+  ],
   "Tagging Grenade": [
     {
       "material": "Electrical Components",
@@ -1296,17 +1201,7 @@
     { "material": "Medium Gun Parts", "quantity": 3 },
     { "material": "Exodus Modules", "quantity": 2 }
   ],
-  "Tempest I": [
-    { "material": "Exodus Modules", "quantity": 2 },
-    { "material": "Magnetic Accelerator", "quantity": 1 },
-    { "material": "Medium Gun Parts", "quantity": 3 }
-  ],
   "Torrente": [
-    { "material": "Advanced Mechanical Components", "quantity": 2 },
-    { "material": "Medium Gun Parts", "quantity": 3 },
-    { "material": "Steel Spring", "quantity": 6 }
-  ],
-  "Torrente I": [
     { "material": "Advanced Mechanical Components", "quantity": 2 },
     { "material": "Medium Gun Parts", "quantity": 3 },
     { "material": "Steel Spring", "quantity": 6 }
@@ -1332,11 +1227,6 @@
     }
   ],
   "Venator": [
-    { "material": "Advanced Mechanical Components", "quantity": 2 },
-    { "material": "Medium Gun Parts", "quantity": 3 },
-    { "material": "Wires", "quantity": 7 }
-  ],
-  "Venator I": [
     { "material": "Advanced Mechanical Components", "quantity": 2 },
     { "material": "Medium Gun Parts", "quantity": 3 },
     { "material": "Wires", "quantity": 7 }
@@ -1395,11 +1285,6 @@
     { "material": "Magnetic Accelerator", "quantity": 1 },
     { "material": "Heavy Gun Parts", "quantity": 3 },
     { "material": "Exodus Modules", "quantity": 1 }
-  ],
-  "Vulcano I": [
-    { "material": "Exodus Modules", "quantity": 1 },
-    { "material": "Heavy Gun Parts", "quantity": 3 },
-    { "material": "Magnetic Accelerator", "quantity": 1 }
   ],
   "Wolfpack": [
     {

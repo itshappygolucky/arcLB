@@ -30,6 +30,13 @@ function TabNavigator() {
           tabBarLabel: 'Loadout Builder',
         }}
       />
+      <Tabs.Screen
+        name="stash-optimizer"
+        options={{
+          title: 'Stash Optimizer',
+          tabBarLabel: 'Stash Optimizer',
+        }}
+      />
     </Tabs>
   );
 }

@@ -80,6 +80,12 @@ initDatabase().catch(err => {
 
 // Helper functions for database operations
 
+// Weapon base names the client may send; server DB may have "X I" (level 1) instead
+const WEAPON_BASE_NAMES = new Set([
+  'Anvil', 'Arpeggio', 'Bettina', 'Bobcat', 'Burletta', 'Ferro', 'Hairpin', 'Hullcracker',
+  'Il Toro', 'Kettle', 'Osprey', 'Renegade', 'Rattler', 'Stitcher', 'Tempest', 'Torrente', 'Venator', 'Vulcano'
+]);
+
 // Items
 function getItemByName(name) {
   return new Promise((resolve, reject) => {
@@ -88,6 +94,30 @@ function getItemByName(name) {
       else resolve(row);
     });
   });
+}
+
+/** Like getItemByName, but if not found and name is a weapon base, try "BaseName I". Creates "X I" if missing so stash optimizer always resolves. */
+async function getItemByNameOrWeaponFallback(name) {
+  const trimmed = (name && typeof name === 'string') ? name.trim() : '';
+  if (!trimmed) return null;
+  let item = await getItemByName(trimmed);
+  if (!item) {
+    const canonicalBase = [...WEAPON_BASE_NAMES].find((w) => w.toLowerCase() === trimmed.toLowerCase());
+    if (canonicalBase) {
+      const level1Name = canonicalBase + ' I';
+      item = await getItemByName(level1Name);
+      if (!item) {
+        try {
+          const id = await insertItem(level1Name, 'weapon', 'common', 1, null, 'weapon');
+          item = await getItemById(id);
+        } catch (err) {
+          // Race: another request may have inserted it
+          item = await getItemByName(level1Name);
+        }
+      }
+    }
+  }
+  return item;
 }
 
 function getAllItems() {
@@ -262,6 +292,7 @@ module.exports = {
   waitForDb,
   // Items
   getItemByName,
+  getItemByNameOrWeaponFallback,
   getAllItems,
   getItemsByType,
   insertItem,

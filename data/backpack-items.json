@@ -2713,6 +2713,25 @@
     "Workshop": null
   },
   {
+    "Item": "Looting Mk. 3 (Safekeeper)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
     "Item": "Lure Grenade",
     "Rarity": "Uncommon",
     "Recycles To": [
@@ -4777,6 +4796,25 @@
   },
   {
     "Item": "Tactical Mk. 3 (Healing)",
+    "Rarity": "Epic",
+    "Recycles To": [
+      {
+        "material": "Advanced Electrical Components",
+        "quantity": 1
+      },
+      {
+        "material": "Processor",
+        "quantity": 1
+      }
+    ],
+    "Sell Price": 5000,
+    "Stack Size": 1,
+    "Category": "Augment",
+    "Quests": null,
+    "Workshop": null
+  },
+  {
+    "Item": "Tactical Mk. 3 (Revival)",
     "Rarity": "Epic",
     "Recycles To": [
       {

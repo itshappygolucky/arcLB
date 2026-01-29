@@ -68,8 +68,49 @@ const BACKPACK_ITEMS: BackpackItemDef[] = BACKPACK_ITEMS_RAW.map((o) => {
 });
 
 
-// Filter to only items that have recipes
-const CRAFTABLE_ITEMS = BACKPACK_ITEMS.filter(item => isCraftable(item.name));
+// Backpack items that have recipes
+const CRAFTABLE_BACKPACK = BACKPACK_ITEMS.filter(item => isCraftable(item.name));
+const BACKPACK_NAMES = new Set(BACKPACK_ITEMS.map(item => item.name));
+
+// Recipe-only items get correct category (Quick Use for light sticks, Modification for mods, else Weapon)
+const QUICK_USE_RECIPE_NAMES = new Set([
+  'Blue Light Stick', 'Green Light Stick', 'Red Light Stick', 'Yellow Light Stick',
+]);
+
+// Weapon display name -> rarity (matches planner WEAPONS)
+const WEAPON_RARITY_BY_NAME: Record<string, string> = {
+  Anvil: 'uncommon', Aphelion: 'legendary', Arpeggio: 'uncommon', Bettina: 'epic', Bobcat: 'epic',
+  Burletta: 'uncommon', Equalizer: 'legendary', Ferro: 'common', Hairpin: 'common', Hullcracker: 'epic',
+  'Il Toro': 'uncommon', Jupiter: 'legendary', Kettle: 'common', Osprey: 'rare', Renegade: 'rare',
+  Rattler: 'common', Stitcher: 'common', Tempest: 'epic', Torrente: 'rare', Venator: 'rare', Vulcano: 'epic',
+};
+
+// Recipe-only items (e.g. guns: Bettina, Bobcat) not in backpack-items.json (duplicate "X I" keys removed from recipes.json)
+const RECIPE_ONLY_ITEMS: BackpackItemDef[] = Object.keys(RECIPES)
+  .filter(name => isCraftable(name) && !BACKPACK_NAMES.has(name))
+  .map(name => {
+    const category = QUICK_USE_RECIPE_NAMES.has(name)
+      ? 'Quick Use'
+      : name.includes('Shotgun Mag') || name.includes('Mag I') || name.includes('Mag II') || name.includes('Mag III')
+      ? 'Modification'
+      : 'Weapon';
+    const rarity = category === 'Weapon' && WEAPON_RARITY_BY_NAME[name]
+      ? WEAPON_RARITY_BY_NAME[name]
+      : 'common';
+    const rarityColor = (WEAPON_RARITY_COLORS as Record<string, string>)[rarity] ?? WEAPON_RARITY_COLORS.common;
+    return {
+      id: name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, ''),
+      name,
+      category,
+      rarity,
+      rarityColor,
+      stackSize: 1,
+    };
+  });
+
+const CRAFTABLE_ITEMS = [...CRAFTABLE_BACKPACK, ...RECIPE_ONLY_ITEMS].sort((a, b) =>
+  a.name.localeCompare(b.name)
+);
 
 export function ItemSelector({ onItemSelect, selectedItems }: ItemSelectorProps) {
   const { colors } = useTheme();

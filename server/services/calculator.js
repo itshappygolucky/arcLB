@@ -16,7 +16,7 @@ async function calculateMaterials(itemNames) {
   
   // Process each item
   for (const itemName of itemNames) {
-    const item = await db.getItemByName(itemName);
+    const item = await db.getItemByNameOrWeaponFallback(itemName);
     if (!item) {
       console.warn(`Item not found: ${itemName}`);
       continue;
@@ -109,7 +109,7 @@ async function resolveItemRecipes(itemId, directRequirements, intermediateMateri
         }
       } else if (material.material_type === 'item') {
         // Another item - need to resolve its recipe
-        const materialItem = await db.getItemByName(materialName);
+        const materialItem = await db.getItemByNameOrWeaponFallback(materialName);
         if (materialItem) {
           // Recursively resolve this item's recipes (not direct anymore)
           await resolveItemRecipes(materialItem.id, directRequirements, intermediateMaterials, rawMaterials, allItemsNeeded, new Set(visited), false);
@@ -231,11 +231,11 @@ async function convertToRawMaterials(intermediateMaterials, rawMaterials, direct
       continue;
     }
     
-    const material = await db.getMaterialByName(materialName) || await db.getItemByName(materialName);
+    const material = await db.getMaterialByName(materialName) || await db.getItemByNameOrWeaponFallback(materialName);
     
     if (material && material.type === 'component') {
       // Try to find if this component has a recipe to break it down
-      const item = await db.getItemByName(materialName);
+      const item = await db.getItemByNameOrWeaponFallback(materialName);
       if (item) {
         const recipes = await db.getRecipesByItemId(item.id);
         for (const recipe of recipes) {
@@ -268,7 +268,7 @@ async function convertToRawMaterials(intermediateMaterials, rawMaterials, direct
 async function calculateItemBreakdown(itemName) {
   await db.waitForDb();
   
-  const item = await db.getItemByName(itemName);
+const item = await db.getItemByNameOrWeaponFallback(itemName);
   if (!item) {
     return {
       item: itemName,
@@ -276,7 +276,7 @@ async function calculateItemBreakdown(itemName) {
       error: 'Item not found'
     };
   }
-  
+
   // Get recipes for this item (prefer craft recipes, fall back to upgrade)
   const recipes = await db.getRecipesByItemId(item.id);
   const craftRecipe = recipes.find(r => r.recipe_type === 'craft');
@@ -307,7 +307,7 @@ async function calculateItemBreakdown(itemName) {
     const quantity = rm.quantity || 1;
     
     // Check if this material has a recipe (can be broken down)
-    const materialItem = await db.getItemByName(materialName) || await db.getMaterialByName(materialName);
+    const materialItem = await db.getItemByNameOrWeaponFallback(materialName) || await db.getMaterialByName(materialName);
     let breakdown = null;
     
     if (materialItem) {
@@ -350,7 +350,7 @@ async function getMaterialBreakdown(materialName, quantity, visited) {
   }
   visited.add(materialName);
   
-  const materialItem = await db.getItemByName(materialName) || await db.getMaterialByName(materialName);
+  const materialItem = await db.getItemByNameOrWeaponFallback(materialName) || await db.getMaterialByName(materialName);
   if (!materialItem) return [];
   
   const recipes = await db.getRecipesByItemId(materialItem.id);
@@ -375,7 +375,7 @@ async function getMaterialBreakdown(materialName, quantity, visited) {
     const subQuantity = (rm.quantity || 1) * quantity; // Multiply by parent quantity
     
     // Check if this sub-material can be broken down further
-    const subMaterialItem = await db.getItemByName(subMaterialName) || await db.getMaterialByName(subMaterialName);
+    const subMaterialItem = await db.getItemByNameOrWeaponFallback(subMaterialName) || await db.getMaterialByName(subMaterialName);
     let subBreakdown = null;
     
     if (subMaterialItem) {

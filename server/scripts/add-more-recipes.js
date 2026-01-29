@@ -84,6 +84,26 @@ async function addMoreRecipes() {
     recipesAdded.push('Hornet I');
   }
 
+  // Hairpin series (so "Hairpin" base name resolves to Hairpin I in stash optimizer)
+  const hairpin1 = await getOrCreateItem('Hairpin I', 'weapon', 'common', 1, null, 'weapon');
+  recipes = await db.getRecipesByItemId(hairpin1.id);
+  if (recipes.length === 0) {
+    const recipeId = await db.insertRecipe(hairpin1.id, 'craft', null, 1, 'Hairpin Blueprint');
+    await db.insertRecipeMaterial(recipeId, metalParts.id, 'Metal Parts', 8, 'raw');
+    recipesAdded.push('Hairpin I');
+  }
+
+  // Bobcat series (so "Bobcat" base name resolves to Bobcat I in stash optimizer)
+  const bobcat1 = await getOrCreateItem('Bobcat I', 'weapon', 'common', 1, null, 'weapon');
+  recipes = await db.getRecipesByItemId(bobcat1.id);
+  if (recipes.length === 0) {
+    const recipeId = await db.insertRecipe(bobcat1.id, 'craft', null, 1, 'Bobcat Blueprint');
+    await db.insertRecipeMaterial(recipeId, mechanicalComponents.id, 'Mechanical Components', 1, 'component');
+    await db.insertRecipeMaterial(recipeId, lightGunParts.id, 'Light Gun Parts', 1, 'component');
+    await db.insertRecipeMaterial(recipeId, advancedElectrical.id, 'Advanced Electrical Components', 1, 'component');
+    recipesAdded.push('Bobcat I');
+  }
+
   // ===== SHIELDS =====
   
   // Small Shield
@@ -126,6 +146,26 @@ async function addMoreRecipes() {
     await db.insertRecipeMaterial(recipeId, advancedElectrical.id, 'Advanced Electrical Components', 1, 'component');
     await db.insertRecipeMaterial(recipeId, processor.id, 'Processor', 1, 'component');
     recipesAdded.push('Looting Mk. 2');
+  }
+
+  // Looting Mk. 3 (Safekeeper) - Gear Bench 3, 2× Advanced Electrical, 3× Processor
+  const lootingMk3Safekeeper = await getOrCreateItem('Looting Mk. 3 (Safekeeper)', 'augment', 'rare', 1, null, 'augment');
+  recipes = await db.getRecipesByItemId(lootingMk3Safekeeper.id);
+  if (recipes.length === 0) {
+    const recipeId = await db.insertRecipe(lootingMk3Safekeeper.id, 'craft', null, 3, 'Looting Mk. 3 (Safekeeper) Blueprint');
+    await db.insertRecipeMaterial(recipeId, advancedElectrical.id, 'Advanced Electrical Components', 2, 'component');
+    await db.insertRecipeMaterial(recipeId, processor.id, 'Processor', 3, 'component');
+    recipesAdded.push('Looting Mk. 3 (Safekeeper)');
+  }
+
+  // Tactical Mk. 3 (Revival) - Gear Bench 3, 2× Advanced Electrical, 3× Processor
+  const tacticalMk3Revival = await getOrCreateItem('Tactical Mk. 3 (Revival)', 'augment', 'rare', 1, null, 'augment');
+  recipes = await db.getRecipesByItemId(tacticalMk3Revival.id);
+  if (recipes.length === 0) {
+    const recipeId = await db.insertRecipe(tacticalMk3Revival.id, 'craft', null, 3, 'Tactical Mk. 3 (Revival) Blueprint');
+    await db.insertRecipeMaterial(recipeId, advancedElectrical.id, 'Advanced Electrical Components', 2, 'component');
+    await db.insertRecipeMaterial(recipeId, processor.id, 'Processor', 3, 'component');
+    recipesAdded.push('Tactical Mk. 3 (Revival)');
   }
 
   // Speed Mk. 1

@@ -55,10 +55,12 @@ const AUGMENTS: AugmentDef[] = [
   { id: 'tactical2', name: 'Tactical Mk. 2', weightLimit: 45, backpack: 17, safePocket: 1, quickUse: 5, weaponSlots: 2, augmentedSlots: '1 Utility', shieldCompatibility: 'Light or Medium Shields' },
   { id: 'loot3c', name: 'Looting Mk. 3 (Cautious)', weightLimit: 70, backpack: 24, safePocket: 2, quickUse: 5, weaponSlots: 2, augmentedSlots: '1 Integrated Binoculars', shieldCompatibility: 'Light Shields' },
   { id: 'loot3s', name: 'Looting Mk. 3 (Survivor)', weightLimit: 80, backpack: 20, safePocket: 3, quickUse: 5, weaponSlots: 2, augmentedSlots: '1 Utility', shieldCompatibility: 'Light or Medium Shields' },
+  { id: 'loot3k', name: 'Looting Mk. 3 (Safekeeper)', weightLimit: 75, backpack: 22, safePocket: 3, quickUse: 5, weaponSlots: 2, augmentedSlots: '1 Safe Pocket', shieldCompatibility: 'Light Shields' },
   { id: 'combat3a', name: 'Combat Mk. 3 (Aggressive)', weightLimit: 65, backpack: 18, safePocket: 1, quickUse: 4, weaponSlots: 2, augmentedSlots: '2 Grenade', shieldCompatibility: 'Light, Medium, or Heavy Shields' },
   { id: 'combat3f', name: 'Combat Mk. 3 (Flanking)', weightLimit: 60, backpack: 20, safePocket: 2, quickUse: 5, weaponSlots: 2, augmentedSlots: '3 Utility', shieldCompatibility: 'Light Shields' },
   { id: 'tactical3d', name: 'Tactical Mk. 3 (Defensive)', weightLimit: 60, backpack: 20, safePocket: 1, quickUse: 5, weaponSlots: 2, augmentedSlots: '1 Integrated Shield Recharger', shieldCompatibility: 'Light, Medium or Heavy Shields' },
   { id: 'tactical3h', name: 'Tactical Mk. 3 (Healing)', weightLimit: 55, backpack: 16, safePocket: 3, quickUse: 4, weaponSlots: 2, augmentedSlots: '3 Healing', shieldCompatibility: 'Light or Medium Shields' },
+  { id: 'tactical3r', name: 'Tactical Mk. 3 (Revival)', weightLimit: 55, backpack: 16, safePocket: 3, quickUse: 4, weaponSlots: 2, augmentedSlots: '1 Revival', shieldCompatibility: 'Light or Medium Shields' },
 ];
 
 const ALL_AUGMENTS: AugmentDef[] = [FREE_LOADOUT, ...AUGMENTS];
@@ -594,6 +596,7 @@ export default function Planner() {
   const { colors } = useTheme();
   const { width } = useWindowDimensions();
   const isDesktop = width >= 1024;
+  const stackColumnsVertically = width < 768;
   const [selectedAugmentId, setSelectedAugmentId] = useState<AugmentId>('free');
   const [augmentModalVisible, setAugmentModalVisible] = useState(false);
 
@@ -1621,9 +1624,9 @@ export default function Planner() {
           </View>
         </View>
 
-        <View style={styles.columns}>
+        <View style={[styles.columns, stackColumnsVertically && { flexDirection: 'column', alignItems: 'stretch', gap: 16 }]}>
           {/* ——— Column 1: Equipment ——— */}
-          <View style={styles.col}>
+          <View style={[styles.col, stackColumnsVertically && { width: '100%', minWidth: 0, flex: undefined }]}>
             <Text style={[styles.sectionLabel, styles.sectionLabelBlock, dynamicStyles.sectionLabel]}>EQUIPMENT</Text>
             <View style={styles.eqTopRow}>
               <TouchableOpacity style={[styles.slotSmall, dynamicStyles.slotSmall]} onPress={() => setAugmentModalVisible(true)} activeOpacity={0.8}>
@@ -1765,7 +1768,7 @@ export default function Planner() {
           </View>
 
           {/* ——— Column 2: Backpack ——— */}
-          <View style={styles.col}>
+          <View style={[styles.col, stackColumnsVertically && { width: '100%', minWidth: 0, flex: undefined }]}>
             <View style={styles.sectionHeader}>
               <Text style={[styles.sectionLabel, dynamicStyles.sectionLabel]}>BACKPACK</Text>
               <Text style={[styles.slotCount, dynamicStyles.slotCount]}>{backpackSlots.filter((s) => s?.id != null).length} / {caps.backpack}</Text>
@@ -1824,7 +1827,7 @@ export default function Planner() {
           </View>
 
           {/* ——— Column 3: Quick Use + Safe Pocket ——— */}
-          <View style={styles.col}>
+          <View style={[styles.col, stackColumnsVertically && { width: '100%', minWidth: 0, flex: undefined, marginTop: 100 }]}>
             <View style={styles.sectionHeader}>
               <Text style={[styles.sectionLabel, dynamicStyles.sectionLabel]}>QUICK USE</Text>
               <Text style={[styles.slotCount, dynamicStyles.slotCount]}>{quickUseSlots.filter((s) => s?.id != null).length} / {caps.quickUse}</Text>
@@ -1913,7 +1916,7 @@ export default function Planner() {
           </View>
         </View>
 
-        <View style={[styles.materialsWrap, { borderTopColor: colors.border }]}>
+        <View style={[styles.materialsWrap, { borderTopColor: colors.border }, stackColumnsVertically && { marginTop: 48 }]}>
           <Text style={[styles.materialsTitle, dynamicStyles.materialsTitle]}>MATERIALS REQUIRED</Text>
           {loadoutMaterials.length === 0 ? (
             <Text style={[styles.materialsEmpty, dynamicStyles.materialsEmpty]}>No craftable items in loadout.</Text>

@@ -2,6 +2,7 @@ import { Platform } from 'react-native';
 
 const FAVORITES_KEY = 'lootPlanner_favorites';
 const LOADOUTS_KEY = 'lootPlanner_loadouts';
+const STASH_PREFERENCES_KEY = 'stashOptimizer_preferences';
 
 export interface SavedLoadout {
   id: string;
@@ -75,6 +76,43 @@ export const storage = {
       }
     } catch (e) {
       console.error('Error saving loadouts:', e);
+    }
+  },
+
+  async getStashPreferences(): Promise<{ targetItems: string[]; targetQuantities?: Record<string, number>; targetLevels?: Record<string, number>; stashLimit: number }> {
+    try {
+      if (Platform.OS === 'web' && typeof window !== 'undefined' && window.localStorage) {
+        const stored = window.localStorage.getItem(STASH_PREFERENCES_KEY);
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          // Migrate old format to new format if needed
+          if (parsed.selectedMaterials || parsed.craftPreferences) {
+            // Old format: extract target items from craftPreferences
+            const targetItems = new Set<string>();
+            if (parsed.craftPreferences) {
+              Object.values(parsed.craftPreferences).forEach((items: string[]) => {
+                items.forEach(item => targetItems.add(item));
+              });
+            }
+            return { targetItems: Array.from(targetItems), targetQuantities: {}, targetLevels: {}, stashLimit: parsed.stashLimit || 280 };
+          }
+          return { targetQuantities: {}, targetLevels: {}, stashLimit: 280, ...parsed };
+        }
+      }
+      return { targetItems: [], targetQuantities: {}, targetLevels: {}, stashLimit: 280 };
+    } catch (e) {
+      console.error('Error loading stash preferences:', e);
+      return { targetItems: [], targetQuantities: {}, targetLevels: {}, stashLimit: 280 };
+    }
+  },
+
+  async saveStashPreferences(preferences: { targetItems: string[]; targetQuantities?: Record<string, number>; targetLevels?: Record<string, number>; stashLimit: number }): Promise<void> {
+    try {
+      if (Platform.OS === 'web' && typeof window !== 'undefined' && window.localStorage) {
+        window.localStorage.setItem(STASH_PREFERENCES_KEY, JSON.stringify(preferences));
+      }
+    } catch (e) {
+      console.error('Error saving stash preferences:', e);
     }
   },
 };

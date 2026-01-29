@@ -165,4 +165,33 @@ export const api = {
     
     return response.json();
   },
+
+  async calculateStashOptimization(targetItems: string[], stashLimit: number = 280): Promise<LoadoutCalculation['optimization']> {
+    const response = await fetch(`${API_BASE_URL}/loadout/stash-optimize`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ targetItems, stashLimit }),
+    });
+
+    const text = await response.text();
+    let data: unknown;
+    try {
+      data = text ? JSON.parse(text) : null;
+    } catch {
+      throw new Error(
+        response.ok
+          ? 'Invalid JSON from server'
+          : `Server returned ${response.status}: ${text.slice(0, 200)}${text.length > 200 ? '…' : ''}`
+      );
+    }
+
+    if (!response.ok) {
+      const err = data as { error?: string; details?: string };
+      throw new Error(err?.error || err?.details || `Request failed (${response.status})`);
+    }
+
+    return data as LoadoutCalculation['optimization'];
+  },
 };

@@ -141,7 +141,7 @@ async function prioritizeItems(itemNames, calculation) {
   }
   
   for (const name of itemNames) {
-    const item = await db.getItemByName(name);
+    const item = await db.getItemByNameOrWeaponFallback(name);
     if (!item) continue;
     
     // Calculate recipe demand (how many recipes need this item)
@@ -352,7 +352,7 @@ async function generateSmartRecommendations(prioritizedItems, calculation) {
       let slotsForMaterials = 0;
       for (const [materialName, quantity] of Object.entries(item.recycleYield)) {
         if (requiredMaterials[materialName]) {
-          const materialItem = await db.getItemByName(materialName);
+          const materialItem = await db.getItemByNameOrWeaponFallback(materialName);
           if (materialItem) {
             const materialStackSize = materialItem.stack_size || 1;
             slotsForMaterials += Math.ceil(quantity / materialStackSize);

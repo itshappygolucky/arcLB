@@ -1,18 +1,81 @@
-import React, { useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import React, { useMemo, useState } from 'react';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { LoadoutCalculation } from '../services/api';
 import { useTheme } from '../contexts/ThemeContext';
+import { getItemImageSource } from '../utils/itemImages';
+import { getLeveledVariantNamesForExclusion } from '../utils/weaponRecipes';
+
+const BACKPACK_ITEMS_RAW: { Item: string; Rarity?: string }[] = require('../../data/backpack-items.json');
+
+const RARITY_ORDER: Record<string, number> = {
+  common: 1,
+  uncommon: 2,
+  rare: 3,
+  epic: 4,
+  legendary: 5,
+};
+
+const RARITY_BORDER_COLORS: Record<string, string> = {
+  common: '#9E9E9E',
+  uncommon: '#4CAF50',
+  rare: '#2196F3',
+  epic: '#E040FB',
+  legendary: '#FFD700',
+};
+
+const ITEM_RARITY_MAP = new Map<string, string>();
+BACKPACK_ITEMS_RAW.forEach((item) => {
+  const rarity = ((item.Rarity || 'Common') as string).toLowerCase();
+  ITEM_RARITY_MAP.set(item.Item, rarity);
+});
+
+function slug(s: string): string {
+  return s.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
+}
 
 interface StashOptimizerProps {
   optimization: LoadoutCalculation['optimization'];
+  totalStashSlotsUsed?: number;
+  materialStacksToKeep?: Array<{
+    material: string;
+    totalNeeded: number;
+    stackSize: number;
+    stacks: number;
+    totalInStacks: number;
+  }>;
+  /** Target items the user wants to craft; these are excluded from "Items to Exfil". */
+  targetItems?: string[];
 }
 
-export function StashOptimizer({ optimization }: StashOptimizerProps) {
+export function StashOptimizer({ optimization, totalStashSlotsUsed, materialStacksToKeep, targetItems = [] }: StashOptimizerProps) {
   const { colors } = useTheme();
   const { stashLimit, currentUsage, remainingSpace, recommendations, efficiency, smartRecommendations } = optimization;
-  const usagePercent = (currentUsage / stashLimit) * 100;
-  const isOverCapacity = remainingSpace < 0;
+  const displayStashSlotsUsed = totalStashSlotsUsed ?? currentUsage;
+  const displayRemainingSpace = stashLimit - displayStashSlotsUsed;
+  const usagePercent = (displayStashSlotsUsed / stashLimit) * 100;
+  const isOverCapacity = displayRemainingSpace < 0;
   const [expandedSmart, setExpandedSmart] = useState(false);
+
+  const targetSet = useMemo(() => {
+    const set = new Set<string>();
+    targetItems.forEach((name) => {
+      getLeveledVariantNamesForExclusion(name).forEach((n) => set.add(n));
+    });
+    return set;
+  }, [targetItems]);
+  const itemsToExfil = recommendations.keep.filter((name) => !targetSet.has(name.trim().toLowerCase()));
+
+  const sortedMaterialStacksToKeep = useMemo(() => {
+    if (!materialStacksToKeep || materialStacksToKeep.length === 0) return [];
+    return [...materialStacksToKeep].sort((a, b) => {
+      const rarityA = ITEM_RARITY_MAP.get(a.material) || 'common';
+      const rarityB = ITEM_RARITY_MAP.get(b.material) || 'common';
+      const orderA = RARITY_ORDER[rarityA] ?? 0;
+      const orderB = RARITY_ORDER[rarityB] ?? 0;
+      if (orderB !== orderA) return orderB - orderA; // higher rarity first
+      return a.material.localeCompare(b.material); // then alphabetically
+    });
+  }, [materialStacksToKeep]);
 
   const dynamicStyles = StyleSheet.create({
     container: {
@@ -110,12 +173,12 @@ export function StashOptimizer({ optimization }: StashOptimizerProps) {
       
       <View style={styles.statsContainer}>
         <View style={styles.statBox}>
-          <Text style={[styles.statValue, dynamicStyles.statValue]}>{currentUsage}</Text>
-          <Text style={[styles.statLabel, dynamicStyles.statLabel]}>Items Used</Text>
+          <Text style={[styles.statValue, dynamicStyles.statValue]}>{displayStashSlotsUsed}</Text>
+          <Text style={[styles.statLabel, dynamicStyles.statLabel]}>Stash Slots Used</Text>
         </View>
         <View style={styles.statBox}>
           <Text style={[styles.statValue, dynamicStyles.statValue, isOverCapacity && dynamicStyles.statValueWarning]}>
-            {Math.abs(remainingSpace)}
+            {Math.abs(displayRemainingSpace)}
           </Text>
           <Text style={[styles.statLabel, dynamicStyles.statLabel]}>
             {isOverCapacity ? 'Over Capacity' : 'Remaining'}
@@ -145,15 +208,76 @@ export function StashOptimizer({ optimization }: StashOptimizerProps) {
         <Text style={[styles.recommendationsTitle, dynamicStyles.recommendationsTitle]}>Recommendations</Text>
         <Text style={[styles.recommendationsMessage, dynamicStyles.recommendationsMessage]}>{recommendations.message}</Text>
 
-        {recommendations.keep.length > 0 && (
-          <View style={styles.recommendationSection}>
-            <Text style={[styles.recommendationLabel, dynamicStyles.recommendationLabel]}>Keep ({recommendations.keep.length}):</Text>
-            <ScrollView style={styles.recommendationList}>
-              {recommendations.keep.map((item, index) => (
-                <Text key={index} style={[styles.recommendationItem, dynamicStyles.recommendationItem]}>• {item}</Text>
-              ))}
-            </ScrollView>
-          </View>
+        {sortedMaterialStacksToKeep.length > 0 ? (
+          <>
+            <View style={styles.recommendationSection}>
+              <Text style={[styles.recommendationLabel, dynamicStyles.recommendationLabel]}>
+                Keep ({sortedMaterialStacksToKeep.reduce((sum, ms) => sum + ms.stacks, 0)} stash slots):
+              </Text>
+              <View style={styles.keepGrid}>
+                {sortedMaterialStacksToKeep.map((ms, index) => {
+                  const imgSrc = getItemImageSource(ms.material, slug(ms.material));
+                  const rarity = ITEM_RARITY_MAP.get(ms.material) || 'common';
+                  const borderColor = RARITY_BORDER_COLORS[rarity] ?? colors.border;
+                  return (
+                    <View key={index} style={[styles.keepCard, { backgroundColor: colors.background, borderColor }]}>
+                      <Text style={[styles.keepCardStacksBadge, { color: '#2196F3' }]}>
+                        {ms.stacks}×
+                      </Text>
+                      {imgSrc && (
+                        <Image source={imgSrc} style={styles.keepCardImage} />
+                      )}
+                      <Text style={[styles.keepCardName, { color: colors.text }]} numberOfLines={2}>
+                        {ms.material}
+                      </Text>
+                      <Text style={[styles.keepCardData, { color: colors.textSecondary }]}>
+                        {ms.totalInStacks} total, need {ms.totalNeeded}
+                      </Text>
+                    </View>
+                  );
+                })}
+              </View>
+            </View>
+
+            {itemsToExfil.length > 0 && (
+              <View style={styles.recommendationSection}>
+                <Text style={[styles.recommendationLabel, dynamicStyles.recommendationLabel]}>
+                  Items to Exfil ({itemsToExfil.length}):
+                </Text>
+                <Text style={[styles.recommendationItem, dynamicStyles.recommendationItem, { fontSize: 11, marginBottom: 8, fontStyle: 'italic' }]}>
+                  These items recycle well and are worth extracting from raids (excluding items you selected to craft):
+                </Text>
+                <View style={styles.exfilGrid}>
+                  {itemsToExfil.map((item, index) => {
+                    const imgSrc = getItemImageSource(item, slug(item));
+                    const rarity = ITEM_RARITY_MAP.get(item) || 'common';
+                    const exfilBorderColor = RARITY_BORDER_COLORS[rarity] ?? colors.border;
+                    return (
+                      <View key={index} style={[styles.exfilCard, { backgroundColor: colors.background, borderColor: exfilBorderColor }]}>
+                        {imgSrc && (
+                          <Image source={imgSrc} style={styles.exfilCardImage} />
+                        )}
+                        <Text style={[styles.exfilCardName, { color: colors.text }]} numberOfLines={2}>
+                          {item}
+                        </Text>
+                      </View>
+                    );
+                  })}
+                </View>
+              </View>
+            )}
+          </>
+        ) : (
+          recommendations.keep.length > 0 && (
+            <View style={styles.recommendationSection}>
+              <Text style={[styles.recommendationLabel, dynamicStyles.recommendationLabel]}>Keep ({recommendations.keep.length}):</Text>
+              <ScrollView style={styles.recommendationList}>
+                {recommendations.keep.map((item, index) => (
+                  <Text key={index} style={[styles.recommendationItem, dynamicStyles.recommendationItem]}>• {item}</Text>
+                ))}
+              </ScrollView>
+            </View>
+          )
         )}
 
         {recommendations.recycle.length > 0 && (
@@ -322,6 +446,71 @@ const styles = StyleSheet.create({
     fontSize: 12,
     marginBottom: 4,
     paddingLeft: 8,
+  },
+  keepGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+    marginTop: 4,
+  },
+  keepCard: {
+    width: 76,
+    alignItems: 'center',
+    paddingVertical: 8,
+    paddingHorizontal: 6,
+    borderRadius: 8,
+    borderWidth: 1,
+  },
+  keepCardImage: {
+    width: 40,
+    height: 40,
+    borderRadius: 6,
+    marginBottom: 4,
+  },
+  keepCardName: {
+    fontSize: 11,
+    fontWeight: '600',
+    textAlign: 'center',
+    marginBottom: 2,
+  },
+  keepCardData: {
+    fontSize: 10,
+    textAlign: 'center',
+    marginBottom: 2,
+  },
+  keepCardStacksBadge: {
+    fontSize: 14,
+    fontWeight: '700',
+    marginBottom: 4,
+  },
+  keepCardStacks: {
+    fontSize: 10,
+    fontWeight: '600',
+  },
+  exfilGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+    marginTop: 4,
+  },
+  exfilCard: {
+    width: 64,
+    alignItems: 'center',
+    paddingVertical: 6,
+    paddingHorizontal: 4,
+    borderRadius: 6,
+    borderWidth: 1,
+  },
+  exfilCardImage: {
+    width: 32,
+    height: 32,
+    borderRadius: 4,
+    marginBottom: 4,
+  },
+  exfilCardName: {
+    fontSize: 10,
+    fontWeight: '500',
+    textAlign: 'center',
   },
   efficiencyContainer: {
     padding: 12,

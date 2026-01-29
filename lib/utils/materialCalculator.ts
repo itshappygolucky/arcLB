@@ -136,6 +136,42 @@ function isRawMaterial(materialName: string): boolean {
 }
 
 /**
+ * Get all items that use a given material as an ingredient.
+ * This is the inverse lookup: material → items that need it.
+ */
+export function getItemsUsingMaterial(materialName: string): string[] {
+  const items: string[] = [];
+  
+  for (const [itemName, recipe] of Object.entries(RECIPES)) {
+    const { ingredients } = getRecipeData(recipe);
+    // Check if this recipe uses the material
+    const usesMaterial = ingredients.some(ing => ing.material === materialName);
+    if (usesMaterial) {
+      items.push(itemName);
+    }
+  }
+  
+  return items.sort();
+}
+
+/**
+ * Get all unique materials that appear as ingredients in recipes.
+ * Useful for building a material selector.
+ */
+export function getAllMaterials(): string[] {
+  const materials = new Set<string>();
+  
+  for (const recipe of Object.values(RECIPES)) {
+    const { ingredients } = getRecipeData(recipe);
+    for (const ing of ingredients) {
+      materials.add(ing.material);
+    }
+  }
+  
+  return Array.from(materials).sort();
+}
+
+/**
  * Calculate materials needed for items using local recipes.json.
  * Returns direct recipes (intermediate materials) and raw materials.
  */

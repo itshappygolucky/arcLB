@@ -15,10 +15,12 @@ const AUGMENT_IMAGE_KEYS: Record<string, string> = {
   tactical2: 'Tactical_Mk2',
   loot3c: 'looting_mk3_cautious',
   loot3s: 'looting_mk3_survivor',
+  loot3k: 'looting_mk3_safekeeper',
   combat3a: 'combat_mk3_aggressive',
   combat3f: 'combat_mk3_flanking',
   tactical3d: 'tactical_mk3_defensive',
   tactical3h: 'tactical_mk3_healing',
+  tactical3r: 'tactical_mk3_revival',
 };
 
 // Map augment names from backpack-items.json to their image keys
@@ -28,6 +30,7 @@ const AUGMENT_NAME_TO_IMAGE_KEY: Record<string, string> = {
   'Looting Mk. 2': 'looting_mk_2',
   'Looting Mk. 3 (Cautious)': 'looting_mk3_cautious',
   'Looting Mk. 3 (Survivor)': 'looting_mk3_survivor',
+  'Looting Mk. 3 (Safekeeper)': 'looting_mk3_safekeeper',
   'Combat Mk. 1': 'combat_mk_1',
   'Combat Mk. 2': 'Combat_Mk2',
   'Combat Mk. 3 (Aggressive)': 'combat_mk3_aggressive',
@@ -36,6 +39,7 @@ const AUGMENT_NAME_TO_IMAGE_KEY: Record<string, string> = {
   'Tactical Mk. 2': 'Tactical_Mk2',
   'Tactical Mk. 3 (Defensive)': 'tactical_mk3_defensive',
   'Tactical Mk. 3 (Healing)': 'tactical_mk3_healing',
+  'Tactical Mk. 3 (Revival)': 'tactical_mk3_revival',
 };
 
 // Backpack item image aliases (from planner.tsx)
@@ -44,6 +48,8 @@ const BACKPACK_IMAGE_ALIAS: Record<string, string> = {
   combat_mk_2: 'Combat_Mk2',
   tactical_mk_2: 'Tactical_Mk2',
   looting_mk_3_survivor: 'looting_mk3_survivor',
+  // Weapon base names use level I image (no separate base image in assets)
+  hairpin: 'hairpin_i',
 };
 
 /**
